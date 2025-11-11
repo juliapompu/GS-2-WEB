@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "nome": "Alice Santos",
+    "foto": "/images/alice.jpg", 
+    "cargo": "Desenvolvedora Frontend Sênior",
+    "resumo": "Especialista em criar interfaces de usuário escaláveis e de alta performance.",
+    "localizacao": "São Paulo/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["React", "TypeScript", "Tailwind CSS", "GraphQL"],
+    "softSkills": ["Comunicação", "Colaboração", "Pensamento Crítico"],
+    "experiencias": [
+      {
+        "empresa": "TechCorp",
+        "cargo": "Desenvolvedora Frontend",
+        "inicio": "2021-03",
+        "fim": "Atual",
+        "descricao": "Liderança técnica e desenvolvimento de SPAs com React."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Ciência da Computação",
+        "instituicao": "USP",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma de E-learning",
+        "link": "https://link-projeto.com",
+        "descricao": "Plataforma SaaS para gestão de cursos online."
+      }
+    ],
+    "certificacoes": ["AWS Certified Developer"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" },
+      { "idioma": "Espanhol", "nivel": "Básico" }
+    ],
+    "areaInteresses": ["Web3", "UX/UI Design", "Performance Web"]
+  }
+ 
+]
