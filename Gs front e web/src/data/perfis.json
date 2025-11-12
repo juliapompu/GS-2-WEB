@@ -2,7 +2,7 @@
   {
     "id": 1,
     "nome": "Alice Santos",
-    "foto": "/images/alice.jpg", 
+    "foto": "", 
     "cargo": "Desenvolvedora Frontend Sênior",
     "resumo": "Especialista em criar interfaces de usuário escaláveis e de alta performance.",
     "localizacao": "São Paulo/SP",
@@ -27,8 +27,7 @@
     ],
     "projetos": [
       {
-        "titulo": "Plataforma de E-learning",
-        
+        "titulo": "Plataforma de E-learning",   
         "descricao": "Plataforma SaaS para gestão de cursos online."
       }
     ],

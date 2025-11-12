@@ -1,5 +1,4 @@
 import React from 'react';
-import App from '../App.jsx';
 
 const perfilcard = ({ perfil, onClick }) => {
   return (
@@ -11,7 +10,7 @@ const perfilcard = ({ perfil, onClick }) => {
       <div className="flex items-center space-x-4">
         {/* Foto do perfil */}
         <img
-          src={perfil.foto}
+          src={perfil.foto || 'https://via.placeholder.com/64?text=' + perfil.nome.charAt(0)}
           alt={`Foto de ${perfil.nome}`}
           className="w-16 h-16 rounded-full object-cover border-4 border-indigo-500 dark:border-indigo-400"
         />

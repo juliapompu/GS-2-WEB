@@ -1,13 +1,20 @@
-body{
-  background-color:#E6E6E6 ;
-  
+/* body {
+  background-color: #E6E6E6;
 }
 
-header{
-  background: radial-gradient( circle , #002D72, #5AB9EA ,  #FF8C69);
-  display: flex;
-  padding:2px 0;
+.body {
+  min-height: 100vh;
+  background-color: #E6E6E6;
+}
 
+.body.dark {
+  background-color: #1a1a1a;
+}
+
+header {
+  background: radial-gradient(circle, #002D72, #5AB9EA, #FF8C69);
+  display: flex;
+  padding: 2px 0;
 } 
 header h1{
   font-size:1.5rem;
@@ -25,7 +32,7 @@ header h1{
   margin-top:20px;
 } */
  
-header .conteiner nav{
+/* header .conteiner nav{
   list-style: none;
   padding: 0;
   margin:0;
@@ -36,4 +43,22 @@ header .conteiner nav{
 header .container nav ul{
   display: inline-block;
   margin-right: 20px;
+} */
+
+
+/* .darkmode-toggle{
+  color:#002D72;
+} */
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+#darkmode{
+  background-color: #121212;
+  color: #ffffff;
 }

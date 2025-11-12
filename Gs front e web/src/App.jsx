@@ -50,10 +50,13 @@ function App() {
 
   return (
     // Container principal
-    <div className="body"> 
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300"> 
       {/* HEADER com Título e Toggle Dark Mode */}
-      <header className="header">
-        <div className="container">
+      <header className="sticky top-0 z-10 bg-white/90 dark:bg-gray-800/90 shadow-lg backdrop-blur-sm p-4">
+        <div className="container mx-auto flex justify-between items-center">
+          <h1 className="text-3xl font-extrabold text-indigo-600 dark:text-indigo-400"></h1>
+      {/* <header className="header">
+        <div className="container"> */}
           <img className='logo' src="./assets/logo-humantech.png" alt='Logo da empresa HumanTech'/>
           <h1>
             HumanTech
@@ -65,9 +68,11 @@ function App() {
             <a><ul>Contato</ul></a>
             <a><ul>Formulario</ul></a>
             <a><ul>Cursos</ul></a>
+          
           </nav>
           
-          <button onClick={toggleDarkMode} className="darkmode-toggle" aria-label="Alternar Dark Mode">
+          <button onClick={toggleDarkMode} className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 transition"
+            aria-label="Alternar Dark Mode">
             {isDarkMode ? <MoonIcon /> : <SunIcon />}
           </button>
         </div>
@@ -83,7 +88,7 @@ function App() {
           {/* BUSCA */}
           <input
             type="text"
-            placeholder="Buscar por nome, cargo, cidade ou tecnologia..."
+            placeholder="Buscar por nome, cargo, cidade..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
             className="flex-grow p-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-700 dark:text-white"
@@ -105,11 +110,7 @@ function App() {
         <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {filteredPerfisArray.length > 0 ? (
             filteredPerfisArray.map((perfil) => (
-              <perfilcard 
-                key={perfil.id} 
-                perfil={perfil} 
-                onClick={setSelectedPerfil} 
-              />
+              <perfilcard key={perfil.id} perfil={perfil} onClick={setSelectedPerfil}/>
             ))
           ) : (
             <p className="col-span-full text-center text-xl text-gray-500 dark:text-gray-400">
