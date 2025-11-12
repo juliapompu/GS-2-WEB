@@ -14,20 +14,20 @@ const MoonIcon = () => (
 
 
 function App() {
-  const [isDarkMode, toggleDarkMode] = useDarkMode();
+  const [isDarkMode, toggleDarkMode] = darkmode();
   const [selectedPerfil, setSelectedPerfil] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [filterArea, setFilterArea] = useState('Todos');
 
   // Obtém todas as áreas únicas para o filtro
   const uniqueAreas = useMemo(() => {
-    const areas = perfisData.map(p => p.area);
+    const areas = perfis.map(p => p.area);
     return ['Todos', ...new Set(areas)];
   }, []);
 
   // Lógica de Busca e Filtro
   const filteredPerfisArray = useMemo(() => {
-    let list = perfisData;
+    let list = perfis;
 
     // Filtro por Área
     if (filterArea !== 'Todos') {
@@ -101,7 +101,7 @@ function App() {
         <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {filteredPerfisArray.length > 0 ? (
             filteredPerfisArray.map((perfil) => (
-              <PerfilCard 
+              <perfilcard 
                 key={perfil.id} 
                 perfil={perfil} 
                 onClick={setSelectedPerfil} 
@@ -117,7 +117,7 @@ function App() {
 
       {/* MODAL */}
       {selectedPerfil && (
-        <PerfilModal 
+        <perfilmodal 
           perfil={selectedPerfil} 
           onClose={() => setSelectedPerfil(null)} 
         />
