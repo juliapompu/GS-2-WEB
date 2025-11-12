@@ -1,4 +1,39 @@
-#darkmode{
-  background-color: #121212;
-  color: #ffffff;
+body{
+  background-color:#E6E6E6 ;
+  
+}
+
+header{
+  background: radial-gradient( circle , #002D72, #5AB9EA ,  #FF8C69);
+  display: flex;
+  padding:2px 0;
+
+} 
+header h1{
+  font-size:1.5rem;
+ 
+  color:white;
+
+}
+/* .header .logo{
+  max-width:150px;
+  height:auto;
+  border-radius:50%;
+  margin-left:50px;
+  display:flex;
+  margin-bottom:-60px;
+  margin-top:20px;
+} */
+ 
+header .conteiner nav{
+  list-style: none;
+  padding: 0;
+  margin:0;
+  align-items: left;
+  justify-content: left;
+}
+
+header .container nav ul{
+  display: inline-block;
+  margin-right: 20px;
 }

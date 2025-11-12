@@ -3,7 +3,12 @@ export default {
   // Configura os arquivos que o Tailwind deve escanear para classes
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./App.jsx",
+    "./App.css",
+    "./components/perfilcard.jsx",
+    "./components/perfilmodal.jsx",
+    "./data/perfis.json",
+    
   ],
   
   darkMode: 'class',

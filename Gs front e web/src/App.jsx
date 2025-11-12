@@ -3,6 +3,7 @@ import darkmode from './hook/darkmode';
 import perfilcard from './components/perfilcard.jsx';
 import perfilmodal from './components/perfilmodal.jsx'; 
 import perfis from './data/perfis.json';
+import './App.css';
 
 // Ícones simples para o Dark Mode
 const SunIcon = () => (
@@ -48,22 +49,25 @@ function App() {
   }, [filterArea, searchTerm]);
 
   return (
-    // Container principal que respeita o Dark Mode
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
-      
+    // Container principal
+    <div className="body"> 
       {/* HEADER com Título e Toggle Dark Mode */}
       <header className="header">
-        <div className="header-content">
-          <img className="logo" src="./assets/Logo-HumanTech.png" alt="Logo HumanTech" />
+        <div className="container">
+          <img className='logo' src="./assets/logo-humantech.png" alt='Logo da empresa HumanTech'/>
           <h1>
             HumanTech
           </h1>
-          <p></p>
-          <button 
-            onClick={toggleDarkMode} 
-            className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 transition"
-            aria-label="Alternar Dark Mode"
-          >
+          <p>tecnologia que prioriza as pessoas</p>
+          <nav>
+            <a><ul>Home</ul></a>
+            <a><ul>Sobre</ul></a>
+            <a><ul>Contato</ul></a>
+            <a><ul>Formulario</ul></a>
+            <a><ul>Cursos</ul></a>
+          </nav>
+          
+          <button onClick={toggleDarkMode} className="darkmode-toggle" aria-label="Alternar Dark Mode">
             {isDarkMode ? <MoonIcon /> : <SunIcon />}
           </button>
         </div>
