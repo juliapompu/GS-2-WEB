@@ -73,6 +73,8 @@ className="px-6 py-2 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-
 
 #### Alterar tamanho de títulos
 **Procure por:** `text-2xl`, `text-3xl`, `text-lg`
+### fonte
+font-sans, font-serif ou font-mono
 
 | Classe       | Tamanho    |
 |-------------|-----------|
@@ -84,6 +86,10 @@ className="px-6 py-2 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-
 | `text-2xl`  | Gigante |
 | `text-3xl`  | Super gigante |
 | `text-4xl`  | Enorme |
+
+
+### tamanho de imagem
+w-{tamnho} h-{tamanho}
 
 **Exemplo:** Aumentar título principal
 ```jsx
