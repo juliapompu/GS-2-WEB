@@ -1,6 +1,6 @@
 import React from 'react';
 
-const perfilcard = ({ perfil, onClick }) => {
+const PerfilCard = ({ perfil, onClick }) => {
   return (
     // Usa a classe 'dark:' para estilos específicos do Dark Mode
     <div
@@ -43,4 +43,4 @@ const perfilcard = ({ perfil, onClick }) => {
   );
 };
 
-export default perfilcard;
+export default PerfilCard;

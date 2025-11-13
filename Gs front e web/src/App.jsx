@@ -1,9 +1,14 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import darkmode from './hook/darkmode';
-import perfilcard from './components/perfilcard.jsx';
-import perfilmodal from './components/perfilmodal.jsx'; 
+import PerfilCard from './components/perfilcard.jsx';
+import PerfilModal from './components/perfilmodal.jsx'; 
 import perfis from './data/perfis.json';
 import './App.css';
+import {Link} from 'react-router-dom';
+
+
+
+
 
 // Ícones simples para o Dark Mode
 const SunIcon = () => (
@@ -63,11 +68,11 @@ function App() {
           </h1>
           <p>tecnologia que prioriza as pessoas</p>
           <nav>
-            <a><ul>Home</ul></a>
-            <a><ul>Sobre</ul></a>
-            <a><ul>Contato</ul></a>
-            <a><ul>Formulario</ul></a>
-            <a><ul>Cursos</ul></a>
+            <Link to='/'>Home</Link>
+            <Link to='/Sobre'>Sobre</Link>
+            <Link to='/formulario'>Formulario</Link>
+            <Link to='/Contato'>Contato</Link>
+            <Link to='/Cursos'>Cursos</Link>
           
           </nav>
           
@@ -110,7 +115,7 @@ function App() {
         <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {filteredPerfisArray.length > 0 ? (
             filteredPerfisArray.map((perfil) => (
-              <perfilcard key={perfil.id} perfil={perfil} onClick={setSelectedPerfil}/>
+              <PerfilCard key={perfil.id} perfil={perfil} onClick={setSelectedPerfil}/>
             ))
           ) : (
             <p className="col-span-full text-center text-xl text-gray-500 dark:text-gray-400">
@@ -122,7 +127,7 @@ function App() {
 
       {/* MODAL */}
       {selectedPerfil && (
-        <perfilmodal 
+        <PerfilModal 
           perfil={selectedPerfil} 
           onClose={() => setSelectedPerfil(null)} 
         />
