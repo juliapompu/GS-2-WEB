@@ -41,6 +41,32 @@
   },
   {
     "id": 2,
+    "nome": "Rodrigo Silva",
+    "idade": 21,
+    "foto": "https://conteudo.imguol.com.br/c/entretenimento/d3/2018/12/20/felipe-romao-26-de-carapicuiba-percebi-como-as-mulheres-precisam-abrir-mao-de-coisas-por-seguranca-1545328793231_v2_450x450.jpg", 
+    "cargo": "Engenhrio de Dados ",
+    "resumo": "Comneçando na área de dados e apaixonado por tecnologia.",
+    "localizacao": "São Paulo/SP",
+    "area": "Banco de Dados",
+    "habilidadesTecnicas": ["Microsoft SQL"],
+    "softSkills": ["Criativo", "Lider", "Trabalho em equipe"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso":"Bacharelado em Ciência da Computação",
+        "instituicao":"Anhembi Morumbi",
+        "ano":"Atual"
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "  Báscio" }
+    ],
+    "areaInteresses": ["Backend", "Banco de dados", "Analise"]
+  },
+  {
+    "id": 3,
     "nome": "Amelia do Castro",
     "idade": 23,
     "foto": "https://img.cancaonova.com/cnimages/canais/uploads/sites/6/2018/03/formacao_1600x1200-como-a-presenca-da-mulher-pode-ser-harmonia-no-mundo-768x576.jpg", 
@@ -84,7 +110,7 @@
     "areaInteresses": ["Backend", "APIs", "Circuitos, IOT"]
   },
   {
-    "id": 3,
+    "id": 4,
     "nome": "Lidiane Jones",
     "idade": 30,
     "foto": "http://forbes.com.br/wp-content/uploads/2023/12/mulher-lidiane-jones-bumble.jpg", 
@@ -155,5 +181,5 @@
       { "idioma": "Espanhol", "nivel": "Intermediário" }
     ],
     "areaInteresses": ["Backend", "APIs", "Circuitos, IOT", "Frontend", "UX/UI Design" ]
-  }
+  } 
 ]
