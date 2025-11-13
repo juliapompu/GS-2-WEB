@@ -55,7 +55,7 @@ function App() {
 
   return (
     // Container principal
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300"> 
+    <div className="min-h-screen dark:bg-gray-900 transition-colors duration-300"> 
       {/* HEADER com Título e Toggle Dark Mode */}
       <header className="sticky top-0 z-10 bg-white/90 dark:bg-gray-800/90 shadow-lg backdrop-blur-sm p-4">
         <div className="container mx-auto flex justify-between items-center">

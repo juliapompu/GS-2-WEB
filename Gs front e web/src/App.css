@@ -1,3 +1,31 @@
+:root{
+  --bg-gray-50:#E6E6E6;
+  --bg-blue-600:#002D72;
+  --bg-blue-400:#5AB9EA;
+  --bg-orange-400:#FF8C69;
+  --text-white-100:#ffffff;
+  --text-black-100:#000000;
+  
+
+}
+
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+#darkmode{
+  background-color: #121212;
+  color: #ffffff;
+}
+
+
+
+
 /* body {
   background-color: #E6E6E6;
 }
@@ -51,14 +79,3 @@ header .container nav ul{
 } */
 
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-#darkmode{
-  background-color: #121212;
-  color: #ffffff;
-}

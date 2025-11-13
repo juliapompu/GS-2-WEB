@@ -14,10 +14,35 @@ export const router = createBrowserRouter([
         element:<Formulario/>
     },
     {
-        path:"/Sobre",
-        element:<Sobre/>
-    }
+        path:'/',
+        element:<RootLayout/>,
+        children:[
+            {index:true, element:<ConteudoPrincipal/>},
+            {path:'sobre', element:<Sobre/>}
+        ]
+    },
+    {
+        path:"/Contato",
+        element:<Contato/>
+    },
+    {
+        path:"/Cursos",
+        element:<Cursos/>
+    },
 ])
 
 // path indica o caminho que o https via seguir "/sobre"
 // element indica qual componente sera renderizado, mas a importação do componente é obrigatoria
+
+
+// //NÃO ENTENDI:
+// export const router = createBrowserRouter([
+//     {
+//         path:'/',
+//         element:<RootLayout/>,
+//         children:[
+//             {index:true, element:<ConteudoPrincipal/>},
+//             {path:'sobre', element:<Sobre/>}
+//         ]
+//     }
+// ]);

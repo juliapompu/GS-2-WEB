@@ -17,6 +17,7 @@ const PerfilCard = ({ perfil, onClick }) => {
         <div>
           {/* Nome e Cargo */}
           <h3 className="text-xl font-bold text-gray-900 dark:text-white">{perfil.nome}</h3>
+          <p className='text-lg dark:text-gray-50 font-medium'>{perfil.idade}</p>
           <p className="text-indigo-600 dark:text-indigo-400 font-medium">{perfil.cargo}</p>
         </div>
       </div>
