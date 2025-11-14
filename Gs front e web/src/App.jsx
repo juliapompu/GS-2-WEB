@@ -34,7 +34,7 @@ function App() {
 
   return (
     <> 
-      <main className="container bg-gray-300 mx-auto p-4 pt-8">
+      <main className="container bg-gray-100 mx-auto p-4 pt-8">
         <h2 className="text-2xl font-semibold text-black-800  mb-6">
           Explore Profissionais
         </h2>
@@ -63,7 +63,7 @@ function App() {
         </div>
 
         {/* LISTAGEM DE CARDS */}
-        <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6">
           {filteredPerfisArray.length > 0 ? (
             filteredPerfisArray.map((perfil) => (
               <PerfilCard key={perfil.id} perfil={perfil} onClick={setSelectedPerfil}/>

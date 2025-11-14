@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  // Configura os arquivos que o Tailwind deve escanear para classes
   content: [
     "./index.html",
     "./App.jsx",
@@ -8,10 +7,13 @@ export default {
     "./components/perfilcard.jsx",
     "./components/perfilmodal.jsx",
     "./data/perfis.json",
+    "./src/pages/*.jsx",
+    "./src/components/*.jsx"
+
     
   ],
   
-  darkMode: 'class',
+  darkMode: "class",
   theme: {
     extend: {},
   },

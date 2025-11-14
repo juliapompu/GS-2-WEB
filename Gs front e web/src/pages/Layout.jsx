@@ -1,18 +1,19 @@
 import { Outlet } from "react-router-dom";
 import Header from "../components/Header";
-import darkmode from '../hook/darkmode';
+import Footer from "../components/Footer";
+import useDarkMode from "../components/Darkmode";
 
 export default function Layout() {
 
- const [isDarkMode, toggleDarkMode] = darkmode();
+ const [isDarkMode, toggleDarkMode] = useDarkMode();
 
   return (
-    <div className="min-h-screen bg-gray-300 transition-colors duration-300"> 
+    <div className="min-h-screen bg-gray-100 transition-colors duration-300"> 
         <Header 
-        toogleDarkMode={toggleDarkMode}
+        toggleDarkMode={toggleDarkMode}
         isDarkMode={isDarkMode}/>
         <Outlet/>
+        <Footer/>
     </div>
-
   )
 }

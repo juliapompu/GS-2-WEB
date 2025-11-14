@@ -1041,7 +1041,7 @@
     "cargo": "Engenheira de Machine Learning",
     "resumo": "Desenvolve pipelines de treinamento e modelos de IA de larga escala.",
     "localizacao": "Curitiba/PR",
-    "area": "IA",
+    "area": "Inteligência Artificial",
     "habilidadesTecnicas": ["PyTorch", "HuggingFace", "ONNX Runtime", "Ray", "CUDA"],
     "softSkills": ["Análise crítica", "Autogestão", "Comunicação"],
     "experiencias": [
@@ -1895,5 +1895,649 @@
       { "idioma": "Inglês", "nivel": "Intermediário" }
     ],
     "areaInteresses": ["Recrutamento", "RH Tech"]
+  },
+  {
+    "id": 81,
+    "nome": "Renato Almeida",
+    "idade": 27,
+    "foto": "https://randomuser.me/api/portraits/men/29.jpg",
+    "cargo": "Desenvolvedor Frontend Pleno",
+    "resumo": "Especialista em interfaces performáticas com foco em UX.",
+    "localizacao": "São Paulo/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["React", "Next.js", "Styled Components"],
+    "softSkills": ["Comunicação", "Colaboração"],
+    "experiencias": [
+      {
+        "empresa": "ViewTech",
+        "cargo": "Frontend Developer",
+        "inicio": "2021-02",
+        "fim": "Atual",
+        "descricao": "Desenvolvimento de interfaces escaláveis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      { "titulo": "Sistema de Delivery Web", "descricao": "SPA para gestão de pedidos." }
+    ],
+    "certificacoes": [],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Frontend", "Performance", "UX"]
+  },
+
+  {
+    "id": 82,
+    "nome": "Patrícia Barbosa",
+    "idade": 31,
+    "foto": "https://randomuser.me/api/portraits/women/22.jpg",
+    "cargo": "Analista de Sistemas",
+    "resumo": "Especialista em levantamento de requisitos e modelagem funcional.",
+    "localizacao": "Curitiba/PR",
+    "area": "Análise",
+    "habilidadesTecnicas": ["UML", "SQL", "BPMN"],
+    "softSkills": ["Comunicação", "Pensamento Crítico"],
+    "experiencias": [
+      {
+        "empresa": "TechCorp",
+        "cargo": "Analista de Sistemas",
+        "inicio": "2018-05",
+        "fim": "Atual"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "UTFPR",
+        "ano": 2017
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Scrum Foundation"],
+    "idiomas": [],
+    "areaInteresses": ["Documentação", "Modelagem de Sistemas"]
+  },
+
+  {
+    "id": 83,
+    "nome": "Igor Monteiro",
+    "idade": 38,
+    "foto": "https://randomuser.me/api/portraits/men/11.jpg",
+    "cargo": "Administrador de Banco de Dados (DBA)",
+    "resumo": "Mantém bancos de dados críticos altamente disponíveis.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Dados",
+    "habilidadesTecnicas": ["PostgreSQL", "Oracle", "Replicação", "Backup"],
+    "softSkills": ["Detalhismo", "Resolução de Problemas"],
+    "experiencias": [
+      {
+        "empresa": "InfoBank",
+        "cargo": "DBA",
+        "inicio": "2012-01",
+        "fim": "Atual"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Computação",
+        "instituicao": "UFRJ",
+        "ano": 2011
+      }
+    ],
+    "projetos": [
+      { "titulo": "Cluster Oracle", "descricao": "Alta disponibilidade para ambiente bancário." }
+    ],
+    "certificacoes": ["Oracle OCP"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["SQL Tuning", "Segurança de Dados"]
+  },
+
+  {
+    "id": 84,
+    "nome": "Amanda Xavier",
+    "idade": 26,
+    "foto": "https://randomuser.me/api/portraits/women/48.jpg",
+    "cargo": "Desenvolvedora Backend Júnior",
+    "resumo": "Focada em APIs e arquitetura limpa.",
+    "localizacao": "Goiânia/GO",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["Node.js", "TypeScript", "MongoDB"],
+    "softSkills": ["Organização"],
+    "experiencias": [
+      {
+        "empresa": "BackLine",
+        "cargo": "Estagiária Backend",
+        "inicio": "2023-01",
+        "fim": "2024-06"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "UFG",
+        "ano": 2024
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [],
+    "areaInteresses": ["APIs", "SOLID", "Microserviços"]
+  },
+
+  {
+    "id": 85,
+    "nome": "Thiago Leite",
+    "idade": 29,
+    "foto": "https://randomuser.me/api/portraits/men/92.jpg",
+    "cargo": "Engenheiro de Dados Pleno",
+    "resumo": "Constrói pipelines de alta performance.",
+    "localizacao": "São Paulo/SP",
+    "area": "Dados",
+    "habilidadesTecnicas": ["Python", "Spark", "Airflow", "SQL"],
+    "softSkills": ["Pensamento Analítico"],
+    "experiencias": [
+      {
+        "empresa": "DataWorks",
+        "cargo": "Data Engineer",
+        "inicio": "2020-03",
+        "fim": "Atual"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "USP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      { "titulo": "Pipeline de ETL Financeiro", "descricao": "Processamento diário de grandes volumes de dados." }
+    ],
+    "certificacoes": ["AWS Data Analytics"],
+    "idiomas": [],
+    "areaInteresses": ["Big Data", "ETL", "Pipelines"]
+  },
+
+  {
+    "id": 86,
+    "nome": "Mariana Telles",
+    "idade": 33,
+    "foto": "https://randomuser.me/api/portraits/women/73.jpg",
+    "cargo": "Analista de Suporte Técnico",
+    "resumo": "Experiência em atendimento N1 e infraestrutura básica.",
+    "localizacao": "Fortaleza/CE",
+    "area": "Suporte",
+    "habilidadesTecnicas": ["Windows Server", "Linux", "Office 365"],
+    "softSkills": ["Paciência", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "HelpTech",
+        "cargo": "Suporte Técnico",
+        "inicio": "2019-01",
+        "fim": "Atual"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Redes de Computadores",
+        "instituicao": "Uni7",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [],
+    "areaInteresses": ["Infraestrutura", "Atendimento ao Cliente"]
+  },
+
+  {
+    "id": 87,
+    "nome": "Vitor Matos",
+    "idade": 41,
+    "foto": "https://randomuser.me/api/portraits/men/12.jpg",
+    "cargo": "Engenheiro de Redes",
+    "resumo": "Administra redes corporativas de grande porte.",
+    "localizacao": "Brasília/DF",
+    "area": "Infraestrutura",
+    "habilidadesTecnicas": ["Cisco", "Mikrotik", "Firewall"],
+    "softSkills": ["Resolução de Problemas"],
+    "experiencias": [
+      {
+        "empresa": "NetGlobal",
+        "cargo": "Network Engineer",
+        "inicio": "2010-02",
+        "fim": "Atual"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Redes de Computadores",
+        "instituicao": "UnB",
+        "ano": 2009
+      }
+    ],
+    "projetos": [
+      { "titulo": "Infraestrutura Nacional de Rede", "descricao": "Gerenciamento de tráfego para 30 mil usuários." }
+    ],
+    "certificacoes": ["CCNA"],
+    "idiomas": [],
+    "areaInteresses": ["Redes", "Segurança", "Infraestrutura"]
+  },
+
+  {
+    "id": 88,
+    "nome": "Larissa Campos",
+    "idade": 25,
+    "foto": "https://randomuser.me/api/portraits/women/44.jpg",
+    "cargo": "QA Júnior",
+    "resumo": "Focada em encontrar erros antes dos usuários.",
+    "localizacao": "Manaus/AM",
+    "area": "Qualidade",
+    "habilidadesTecnicas": ["Jest", "Cypress"],
+    "softSkills": ["Atenção a Detalhes"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "ADS",
+        "instituicao": "UEA",
+        "ano": 2023
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [],
+    "areaInteresses": ["Testes Automatizados", "Qualidade"]
+  },
+
+  {
+    "id": 89,
+    "nome": "Diego Cavalcante",
+    "idade": 36,
+    "foto": "https://randomuser.me/api/portraits/men/26.jpg",
+    "cargo": "Desenvolvedor Full Stack Sênior",
+    "resumo": "Experiência em sistemas completos e escaláveis.",
+    "localizacao": "Recife/PE",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["React", "Node.js", "SQL", "Docker"],
+    "softSkills": ["Liderança"],
+    "experiencias": [
+      {
+        "empresa": "DevSolutions",
+        "cargo": "Full Stack Senior",
+        "inicio": "2015-01",
+        "fim": "Atual"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "UFPE",
+        "ano": 2014
+      }
+    ],
+    "projetos": [
+      { "titulo": "Sistema de Agendamentos", "descricao": "Projeto utilizado por clínicas médicas." },
+      { "titulo": "Plataforma Web de Eventos", "descricao": "Aplicação completa com painel administrativo." }
+    ],
+    "certificacoes": [],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Arquitetura", "Web", "DevOps"]
+  },
+
+  {
+    "id": 90,
+    "nome": "Mirela Duarte",
+    "idade": 29,
+    "foto": "https://randomuser.me/api/portraits/women/31.jpg",
+    "cargo": "UI Designer",
+    "resumo": "Cria interfaces claras e intuitivas.",
+    "localizacao": "Salvador/BA",
+    "area": "Design",
+    "habilidadesTecnicas": ["Figma", "Adobe XD"],
+    "softSkills": ["Criatividade"],
+    "experiencias": [
+      {
+        "empresa": "UXDesigners",
+        "cargo": "UI Designer",
+        "inicio": "2019-07",
+        "fim": "Atual"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "UNIFACS",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [],
+    "areaInteresses": ["UI", "Design System", "Prototipação"]
+  },
+
+  {
+    "id": 91,
+    "nome": "Felipe Cardoso",
+    "idade": 24,
+    "foto": "https://randomuser.me/api/portraits/men/60.jpg",
+    "cargo": "Técnico de TI",
+    "resumo": "Mantém equipamentos e redes internas funcionando.",
+    "localizacao": "Natal/RN",
+    "area": "Infraestrutura",
+    "habilidadesTecnicas": ["Manutenção de PCs", "Redes", "Linux"],
+    "softSkills": ["Organização"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Tecnologia da Informação",
+        "instituicao": "IFRN",
+        "ano": 2022
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [],
+    "areaInteresses": ["Infraestrutura", "Redes"]
+  },
+
+  {
+    "id": 92,
+    "nome": "Camila Fernandes",
+    "idade": 33,
+    "foto": "https://randomuser.me/api/portraits/women/50.jpg",
+    "cargo": "DevOps Engineer",
+    "resumo": "Focada em automação de pipelines e ambientes cloud.",
+    "localizacao": "São Paulo/SP",
+    "area": "Infraestrutura",
+    "habilidadesTecnicas": ["AWS", "Terraform", "Docker", "Kubernetes"],
+    "softSkills": ["Proatividade"],
+    "experiencias": [
+      {
+        "empresa": "CloudBridge",
+        "cargo": "DevOps",
+        "inicio": "2019-02",
+        "fim": "Atual"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "Mackenzie",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["AWS Practitioner"],
+    "idiomas": [],
+    "areaInteresses": ["Cloud", "Infraestrutura", "CI/CD"]
+  },
+
+  {
+    "id": 93,
+    "nome": "Carlos Eduardo",
+    "idade": 35,
+    "foto": "https://randomuser.me/api/portraits/men/16.jpg",
+    "cargo": "Desenvolvedor Backend Pleno",
+    "resumo": "Cria sistemas robustos e escaláveis.",
+    "localizacao": "Santos/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["Java", "Spring", "PostgreSQL"],
+    "softSkills": ["Pensamento Lógico"],
+    "experiencias": [
+      {
+        "empresa": "MegaSoft",
+        "cargo": "Backend Developer",
+        "inicio": "2020-01",
+        "fim": "Atual"
+      },
+      {
+        "empresa": "TechFast",
+        "cargo": "Backend Jr",
+        "inicio": "2017-02",
+        "fim": "2019-12"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia da Computação",
+        "instituicao": "Unisanta",
+        "ano": 2016
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [],
+    "areaInteresses": ["Backend", "APIs", "Microserviços"]
+  },
+
+  {
+    "id": 94,
+    "nome": "Luiza Teixeira",
+    "idade": 28,
+    "foto": "https://randomuser.me/api/portraits/women/79.jpg",
+    "cargo": "QA Sênior",
+    "resumo": "Automatiza testes e garante a qualidade dos produtos.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Qualidade",
+    "habilidadesTecnicas": ["Cypress", "Selenium", "JUnit"],
+    "softSkills": ["Detalhismo"],
+    "experiencias": [
+      {
+        "empresa": "QualityPro",
+        "cargo": "QA Senior",
+        "inicio": "2018-01",
+        "fim": "Atual"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "ADS",
+        "instituicao": "UFRGS",
+        "ano": 2017
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["ISTQB"],
+    "idiomas": [],
+    "areaInteresses": ["Automação", "Testes E2E"]
+  },
+
+  {
+    "id": 95,
+    "nome": "Ricardo Simões",
+    "idade": 39,
+    "foto": "https://randomuser.me/api/portraits/men/17.jpg",
+    "cargo": "Engenheiro de Software Sênior",
+    "resumo": "Trabalha com sistemas distribuídos e arquiteturas modernas.",
+    "localizacao": "São Paulo/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["Go", "Docker", "Kafka"],
+    "softSkills": ["Liderança"],
+    "experiencias": [
+      {
+        "empresa": "CloudX",
+        "cargo": "Senior Engineer",
+        "inicio": "2016-08",
+        "fim": "Atual"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "USP",
+        "ano": 2014
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [],
+    "areaInteresses": ["Go", "Sistemas Distribuídos"]
+  },
+
+  {
+    "id": 96,
+    "nome": "André Machado",
+    "idade": 34,
+    "foto": "https://randomuser.me/api/portraits/men/88.jpg",
+    "cargo": "Scrum Master",
+    "resumo": "Facilita processos ágeis com foco no time.",
+    "localizacao": "BH/MG",
+    "area": "Gestão",
+    "habilidadesTecnicas": ["Scrum", "Kanban"],
+    "softSkills": ["Comunicação", "Empatia"],
+    "experiencias": [
+      {
+        "empresa": "AgilePro",
+        "cargo": "Scrum Master",
+        "inicio": "2019-04",
+        "fim": "Atual"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "UFMG",
+        "ano": 2016
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["CSM"],
+    "idiomas": [],
+    "areaInteresses": ["Agile", "Gestão de Times"]
+  },
+
+  {
+    "id": 97,
+    "nome": "Bianca Lacerda",
+    "idade": 23,
+    "foto": "https://randomuser.me/api/portraits/women/14.jpg",
+    "cargo": "Desenvolvedora Mobile Júnior",
+    "resumo": "Cria apps intuitivos e funcionais.",
+    "localizacao": "João Pessoa/PB",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["Flutter", "Kotlin"],
+    "softSkills": ["Criatividade"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "ADS",
+        "instituicao": "IFPB",
+        "ano": 2023
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [],
+    "areaInteresses": ["Mobile", "UI"]
+  },
+
+  {
+    "id": 98,
+    "nome": "Rogério Pacheco",
+    "idade": 42,
+    "foto": "https://randomuser.me/api/portraits/men/56.jpg",
+    "cargo": "Administrador de Sistemas",
+    "resumo": "Garante ambientes estáveis e seguros.",
+    "localizacao": "Curitiba/PR",
+    "area": "Infraestrutura",
+    "habilidadesTecnicas": ["Linux", "Zabbix", "VMware"],
+    "softSkills": ["Responsabilidade"],
+    "experiencias": [
+      {
+        "empresa": "SysTech",
+        "cargo": "SysAdmin",
+        "inicio": "2010-01",
+        "fim": "Atual"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Redes",
+        "instituicao": "UTFPR",
+        "ano": 2009
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [],
+    "areaInteresses": ["Servidores", "Virtualização"]
+  },
+
+  {
+    "id": 99,
+    "nome": "Clara Nogueira",
+    "idade": 32,
+    "foto": "https://randomuser.me/api/portraits/women/27.jpg",
+    "cargo": "Product Owner",
+    "resumo": "Foca em transformar ideias em produtos reais.",
+    "localizacao": "São Paulo/SP",
+    "area": "Produto",
+    "habilidadesTecnicas": ["Scrum", "Roadmaps"],
+    "softSkills": ["Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "ProdX",
+        "cargo": "PO",
+        "inicio": "2019-02",
+        "fim": "Atual"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Gestão de TI",
+        "instituicao": "PUC-SP",
+        "ano": 2016
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [],
+    "areaInteresses": ["Produto Digital", "UX"]
+  },
+
+  {
+    "id": 100,
+    "nome": "Henrique Lopes",
+    "idade": 30,
+    "foto": "https://randomuser.me/api/portraits/men/80.jpg",
+    "cargo": "Desenvolvedor Full Stack",
+    "resumo": "Atua no desenvolvimento completo de aplicações web.",
+    "localizacao": "São Paulo/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["Node.js", "React", "MySQL"],
+    "softSkills": ["Trabalho em Equipe"],
+    "experiencias": [
+      {
+        "empresa": "DevHouse",
+        "cargo": "Full Stack Developer",
+        "inicio": "2021-03",
+        "fim": "Atual"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "Mackenzie",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      { "titulo": "Sistema de Estoque", "descricao": "Plataforma usada por pequenos negócios." }
+    ],
+    "certificacoes": [],
+    "idiomas": [],
+    "areaInteresses": ["Web", "APIs"]
   }
 ]

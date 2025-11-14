@@ -1,3 +1,5 @@
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root{
   --bg-gray-50:#E6E6E6;
   --bg-blue-600:#032354;
