@@ -36,27 +36,27 @@ function App() {
     // Container principal
     <> 
 
-      <main className="container mx-auto p-4 pt-8">
-        <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-100 mb-6">
+      <main className="container bg-gray-300 mx-auto p-4 pt-8">
+        <h2 className="text-2xl font-semibold text-black-800  mb-6">
           Explore Profissionais
         </h2>
 
         {/* CONTROLES DE FILTRO E BUSCA */}
-        <div className="flex flex-col md:flex-row gap-4 mb-8 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md">
+        <div className="flex flex-col md:flex-row gap-4 mb-8 bg-white bg-gray-100 p-4 rounded-lg shadow-md">
           {/* BUSCA */}
           <input
             type="text"
             placeholder="Buscar por nome, cargo, cidade..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className="flex-grow p-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-700 dark:text-white"
+            className="flex-grow p-3 border border-gray-300 border-gray-600 rounded-lg focus:ring-indigo-500 focus:border-indigo-500 bg-blue-100 text-white"
           />
 
           {/* FILTRO POR ÁREA */}
           <select
             value={filterArea}
             onChange={(e) => setFilterArea(e.target.value)}
-            className="p-3 border border-gray-300 dark:border-gray-600 rounded-lg dark:bg-gray-700 dark:text-white appearance-none"
+            className="p-3 border border-gray-300 border-gray-600 rounded-lg bg-blue-600 text-white appearance-none"
           >
             {uniqueAreas.map(area => (
               <option key={area} value={area}>{area}</option>
