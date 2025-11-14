@@ -34,27 +34,24 @@ export default function Header({ toggleDarkMode, isDarkMode }) {
     </svg>
   );
   return (
-    <header className="sticky top-0 z-10 bg-white/90 dark:bg-gray-800/90 shadow-lg backdrop-blur-sm p-4">
+    <header className="top-0 z-10 bg-[#032354] shadow-lg backdrop-blur-sm p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-3xl font-extrabold text-indigo-600 dark:text-indigo-400"></h1>
+        <h1 className="text-3xl font-extrabold text-indigo-600 text-indigo-400"></h1>
         <img
-          className="w-48 h-58"
+          className="w-48 h-50 mr-2"
           src="src/assets/Logo-HumanTech.png"
           alt="Logo da empresa HumanTech"
         />
         <h1 className="text-gray text-2xl font-mono font-normal text-gray-50">HumanTech</h1>
         <p className="text-gray text-lg font-mono font-normal text-gray-50">tecnologia que prioriza as pessoas</p>
         <nav>
-          <Link to="/" className="p-3 text-lg  font-mono text-gray text-gray-50">Home</Link>
-          <Link to="/Sobre" className="p-3 text-lg  font-mono text-gray text-gray-50">Sobre</Link>
-          <Link to="/formulario" className="p-3 text-lg  font-mono text-gray text-gray-50">Formulario</Link>
-          <Link to="/Contato" className="p-3 text-lg  font-mono text-gray text-gray-50">Contato</Link>
-          <Link to="/Cursos" className="p-3 text-lg font-mono text-gray text-gray-50">Cursos</Link>
+          <Link to="/" className="p-3 text-xl  font-mono text-gray text-gray-50">Home</Link>
+          <Link to="/Sobre" className="p-3 text-xl  font-mono text-gray text-gray-50">Sobre</Link>
         </nav>
 
         <button
           onClick={toggleDarkMode}
-          className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 transition"
+          className="p-2 rounded-full hover:bg-gray-700 transition"
           aria-label="Alternar Dark Mode"
         >
           {isDarkMode ? <MoonIcon /> : <SunIcon />}

@@ -3,7 +3,7 @@
     "id": 1,
     "nome": "Alice Santos",
     "idade": 26,
-    "foto": "https://gente.globo.com/wp-content/uploads/2025/03/2556.png", 
+    "foto": "https://gente.globo.com/wp-content/uploads/2025/03/2556.png",
     "cargo": "Desenvolvedora Frontend Sênior",
     "resumo": "Especialista em criar interfaces de usuário escaláveis e de alta performance.",
     "localizacao": "São Paulo/SP",
@@ -28,7 +28,7 @@
     ],
     "projetos": [
       {
-        "titulo": "Plataforma de E-learning",   
+        "titulo": "Plataforma de E-learning",
         "descricao": "Plataforma SaaS para gestão de cursos online."
       }
     ],
@@ -41,145 +41,1859 @@
   },
   {
     "id": 2,
-    "nome": "Rodrigo Silva",
-    "idade": 21,
-    "foto": "https://conteudo.imguol.com.br/c/entretenimento/d3/2018/12/20/felipe-romao-26-de-carapicuiba-percebi-como-as-mulheres-precisam-abrir-mao-de-coisas-por-seguranca-1545328793231_v2_450x450.jpg", 
-    "cargo": "Engenhrio de Dados ",
-    "resumo": "Comneçando na área de dados e apaixonado por tecnologia.",
-    "localizacao": "São Paulo/SP",
-    "area": "Banco de Dados",
-    "habilidadesTecnicas": ["Microsoft SQL"],
-    "softSkills": ["Criativo", "Lider", "Trabalho em equipe"],
-    "experiencias": [],
-    "formacao": [
-      {
-        "curso":"Bacharelado em Ciência da Computação",
-        "instituicao":"Anhembi Morumbi",
-        "ano":"Atual"
-      }
-    ],
-    "projetos": [],
-    "certificacoes": [],
-    "idiomas": [
-      { "idioma": "Inglês", "nivel": "  Báscio" }
-    ],
-    "areaInteresses": ["Backend", "Banco de dados", "Analise"]
-  },
-  {
-    "id": 3,
-    "nome": "Amelia do Castro",
-    "idade": 23,
-    "foto": "https://img.cancaonova.com/cnimages/canais/uploads/sites/6/2018/03/formacao_1600x1200-como-a-presenca-da-mulher-pode-ser-harmonia-no-mundo-768x576.jpg", 
-    "cargo": "Desenvolvedora Backend Pleno",
-    "resumo": "Concentrada em construir APIs robustas e escaláveis.",
+    "nome": "Bruno Almeida",
+    "idade": 32,
+    "foto": "https://conteudo.imguol.com.br/c/entretenimento/d3/2018/12/20/felipe-romao-26-de-carapicuiba-percebi-como-as-mulheres-precisam-abrir-mao-de-coisas-por-seguranca-1545328793231_v2_450x450.jpg.webp",
+    "cargo": "Desenvolvedor Backend Pleno",
+    "resumo": "Focado em arquiteturas escaláveis, microsserviços e APIs de alta disponibilidade.",
     "localizacao": "Rio de Janeiro/RJ",
     "area": "Desenvolvimento",
-    "habilidadesTecnicas": ["SQL","Python","Docker"],
-    "softSkills": ["Comunicação", "Experiência com Metodologias Ágeis"],
+    "habilidadesTecnicas": ["Node.js", "PostgreSQL", "Docker", "Redis"],
+    "softSkills": ["Resolução de Problemas", "Organização", "Proatividade"],
     "experiencias": [
       {
-        "empresa": "TOTVS",
-        "cargo": "Desenvolvedora Backend",
-        "inicio": "06-2022",
-        "fim": "04-2024",
-        "descricao": "Desenvolvedora Backend focada em APIs RESTful."
+        "empresa": "InovaTech",
+        "cargo": "Backend Developer",
+        "inicio": "2019-06",
+        "fim": "Atual",
+        "descricao": "Construção de APIs REST e microsserviços de alta performance."
       }
     ],
     "formacao": [
       {
-        "curso":"Bacharelado em Adiministração",
-        "instituicao":"FGV",
-        "ano":2017
-      },
+        "curso": "Sistemas de Informação",
+        "instituicao": "UFRJ",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
       {
-        "curso": "Bacharelado em Engenharia de Software",
-        "instituicao": "FAAP",
+        "titulo": "Sistema de Pagamentos Online",
+        "descricao": "Motor de pagamentos integrado com bancos nacionais."
+      }
+    ],
+    "certificacoes": ["Docker Expert"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["DevOps", "Kubernetes", "Arquitetura de Software"]
+  },
+
+  {
+    "id": 3,
+    "nome": "Carla Menezes",
+    "idade": 29,
+    "foto": "https://gente.globo.com/wp-content/uploads/2025/03/2556.png",
+    "cargo": "UX/UI Designer",
+    "resumo": "Apaixonada por criar experiências intuitivas e acessíveis.",
+    "localizacao": "Curitiba/PR",
+    "area": "Design",
+    "habilidadesTecnicas": ["Figma", "Adobe XD", "Design System", "Acessibilidade"],
+    "softSkills": ["Empatia", "Comunicação", "Trabalho em Equipe"],
+    "experiencias": [
+      {
+        "empresa": "BrightApps",
+        "cargo": "UX Designer",
+        "inicio": "2020-02",
+        "fim": "Atual",
+        "descricao": "Criação de fluxos de usuários, protótipos e testes de usabilidade."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "PUC-PR",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "App de Mobilidade Urbana",
+        "descricao": "Aplicativo com foco em acessibilidade urbana."
+      }
+    ],
+    "certificacoes": ["UX Research Specialist"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Psicologia Cognitiva", "Acessibilidade", "UI Animations"]
+  },
+
+  {
+    "id": 4,
+    "nome": "Diego Barbosa",
+    "idade": 35,
+    "foto": "https://s2.glbimg.com/vfTtbJ0cBW5_XPgXE84UfAUV2Rc=/620x466/top/e.glbimg.com/og/ed/f/original/2020/03/11/jao.png",
+    "cargo": "Engenheiro de Dados Sênior",
+    "resumo": "Especialista em pipelines, ETL e processamento em larga escala.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Dados",
+    "habilidadesTecnicas": ["Python", "Spark", "Airflow", "AWS S3"],
+    "softSkills": ["Pensamento Analítico", "Resiliência", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "DataFlow",
+        "cargo": "Data Engineer",
+        "inicio": "2018-09",
+        "fim": "Atual",
+        "descricao": "Arquitetura de pipelines escaláveis e automação de ETLs."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Computação",
+        "instituicao": "CEFET",
+        "ano": 2014
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Pipeline de Big Data",
+        "descricao": "Sistema distribuído para ingestão de dados massivos."
+      }
+    ],
+    "certificacoes": ["Azure Data Engineer"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["Big Data", "Machine Learning", "Arquitetura Cloud"]
+  },
+
+  {
+    "id": 5,
+    "nome": "Eduarda Silva",
+    "idade": 24,
+    "foto": "https://gente.globo.com/wp-content/uploads/2025/03/2556.png",
+    "cargo": "Desenvolvedora Mobile",
+    "resumo": "Cria aplicativos híbridos performáticos e acessíveis.",
+    "localizacao": "Fortaleza/CE",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["Flutter", "Dart", "Firebase", "REST APIs"],
+    "softSkills": ["Criatividade", "Organização", "Colaboração"],
+    "experiencias": [
+      {
+        "empresa": "AppStudio",
+        "cargo": "Mobile Developer",
+        "inicio": "2022-01",
+        "fim": "Atual",
+        "descricao": "Desenvolvimento de apps multiplataforma com Flutter."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "UFC",
         "ano": 2020
       }
     ],
     "projetos": [
       {
-        "titulo": "SafeOficce",   
-        "descricao": "Circuito com foco em um ambiente de trabalho melhor"
+        "titulo": "Aplicativo de Fitness",
+        "descricao": "App com treinos personalizados e gamificação."
       }
     ],
-    "certificacoes": ["AWS Certified Developer"],
+    "certificacoes": ["Google Mobile Developer"],
     "idiomas": [
       { "idioma": "Inglês", "nivel": "Intermediário" }
     ],
-    "areaInteresses": ["Backend", "APIs", "Circuitos, IOT"]
+    "areaInteresses": ["Gamificação", "UI Mobile", "Wearables"]
   },
-  {
-    "id": 4,
-    "nome": "Lidiane Jones",
-    "idade": 30,
-    "foto": "http://forbes.com.br/wp-content/uploads/2023/12/mulher-lidiane-jones-bumble.jpg", 
-    "cargo": "Engenheira de Software Sênior",
-    "resumo": "Especialista em soluções escaláveis e arquitetura de sistemas.",
-    "localizacao": "Belo Horizonte/MG",
-    "area": "Engenheira de Software",
-    "habilidadesTecnicas": ["Microsoft SQL","Python","Tailwind CSS", "Javascript", "HTML"],
-    "softSkills": ["Obeservadora", "Liderança", "Resiliência"],
+   {
+    "id": 6,
+    "nome": "Fernando Rocha",
+    "idade": 41,
+    "foto": "https://conteudo.imguol.com.br/c/entretenimento/d3/2018/12/20/felipe-romao-26-de-carapicuiba-percebi-como-as-mulheres-precisam-abrir-mao-de-coisas-por-seguranca-1545328793231_v2_450x450.jpg.webp",
+    "cargo": "Arquiteto de Software",
+    "resumo": "Mais de 15 anos projetando sistemas distribuídos de alta escala.",
+    "localizacao": "Campinas/SP",
+    "area": "Arquitetura",
+    "habilidadesTecnicas": ["Java", "Spring", "Kafka", "Kubernetes"],
+    "softSkills": ["Liderança", "Visão Sistêmica", "Comunicação"],
     "experiencias": [
       {
-        "empresa": "B3",
-        "cargo": "Estagiária de analise de dados",
-        "inicio": "04-2015",
-        "fim": "04-2017",
-        "descricao": "Análise de dados financeiros e criação de relatórios."
-      },
-      {
-        "empresa":"TechSaphe",
-        "cargo":"Desenvolvedora Frontend",
-        "inicio":"08-2018",
-        "fim":"12-2020",
-        "descricao":"Desenvolvimento de interfaces de usuário com foco em usabilidade."
-      },
-      {
-        "empresa":"Humantech",
-        "cargo":"Engenheira de Software",
-        "inicio":"01-2021",
-        "fim":"Atual",
-        "descricao":"Liderança técnica e desenvolvimento de soluções escaláveis."
+        "empresa": "MacroSystems",
+        "cargo": "Software Architect",
+        "inicio": "2015-04",
+        "fim": "Atual",
+        "descricao": "Definição de padrões arquiteturais e governança técnica."
       }
     ],
     "formacao": [
       {
-        "curso":"Bacharelado em Govcernança de TI",
-        "instituicao":"FGV",
-        "ano":2017
-      },
-      {
-        "curso": "Bacharelado em Engenharia de Software",
-        "instituicao": "FIAP",
-        "ano": 2022
-      },
-      {
-        "curso":"Nutricioção",
-        "instituicao":"UNIP",
-        "ano":2021
+        "curso": "Engenharia de Software",
+        "instituicao": "UNICAMP",
+        "ano": 2010
       }
     ],
     "projetos": [
       {
-        "titulo": "SafeNest",   
-        "descricao": "Sistema de monitoramento residencial com IoT."
-      },
-      {
-        "titulo": "HealthTrack",   
-        "descricao": "Aplicativo de monitoramento de saúde pessoal."
-      },
-      {
-        "titulo": "EcoRoute",   
-        "descricao": "Aplicativo de navegação focado em rotas ecológicas."
+        "titulo": "Arquitetura de E-commerce",
+        "descricao": "Plataforma escalável com suporte a milhões de transações."
       }
     ],
-    "certificacoes": ["AWS Certified Developer", "Oracle Certified Professional"],
+    "certificacoes": ["Oracle Java Architect"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["Sistemas Distribuídos", "Event Streaming", "DevOps"]
+  },
+
+  {
+    "id": 7,
+    "nome": "Gabriela Cunha",
+    "idade": 22,
+    "foto": "https://gente.globo.com/wp-content/uploads/2025/03/2556.png",
+    "cargo": "Estagiária em QA",
+    "resumo": "Apaixonada por automação de testes e qualidade de software.",
+    "localizacao": "Salvador/BA",
+    "area": "Qualidade",
+    "habilidadesTecnicas": ["Cypress", "Jest", "Selenium"],
+    "softSkills": ["Atenção aos Detalhes", "Trabalho em Equipe"],
+    "experiencias": [
+      {
+        "empresa": "QualityLab",
+        "cargo": "QA Intern",
+        "inicio": "2024-03",
+        "fim": "Atual",
+        "descricao": "Criação de testes automatizados e execução de testes manuais."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "UNIFACS",
+        "ano": 2025
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Suite de Automação QA",
+        "descricao": "Automação de testes end-to-end usando Cypress."
+      }
+    ],
+    "certificacoes": [],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Básico" }
+    ],
+    "areaInteresses": ["Automação de Testes", "QA", "DevOps"]
+  },
+
+  {
+    "id": 8,
+    "nome": "Henrique Pires",
+    "idade": 27,
+    "foto": "https://s2.glbimg.com/vfTtbJ0cBW5_XPgXE84UfAUV2Rc=/620x466/top/e.glbimg.com/og/ed/f/original/2020/03/11/jao.png",
+    "cargo": "DevOps Engineer",
+    "resumo": "Especialista em automação, CI/CD e infraestrutura em nuvem.",
+    "localizacao": "Florianópolis/SC",
+    "area": "DevOps",
+    "habilidadesTecnicas": ["AWS", "Terraform", "GitHub Actions", "Docker"],
+    "softSkills": ["Proatividade", "Resolução de Problemas"],
+    "experiencias": [
+      {
+        "empresa": "CloudMaster",
+        "cargo": "DevOps Engineer",
+        "inicio": "2021-01",
+        "fim": "Atual",
+        "descricao": "Automação de pipelines e gerenciamento de infraestrutura cloud."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Redes de Computadores",
+        "instituicao": "IFSC",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Infraestrutura como Código",
+        "descricao": "Provisionamento automatizado usando Terraform."
+      }
+    ],
+    "certificacoes": ["AWS SysOps Admin"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Cloud", "Automação", "Kubernetes"]
+  },
+
+  {
+    "id": 9,
+    "nome": "Isabela Torres",
+    "idade": 30,
+    "foto": "https://gente.globo.com/wp-content/uploads/2025/03/2556.png",
+    "cargo": "Cientista de Dados",
+    "resumo": "Construção de modelos preditivos, análises estatísticas e ML.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Dados",
+    "habilidadesTecnicas": ["Python", "TensorFlow", "Pandas", "SQL"],
+    "softSkills": ["Pensamento Crítico", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "InsightsAI",
+        "cargo": "Data Scientist",
+        "inicio": "2019-08",
+        "fim": "Atual",
+        "descricao": "Modelagem preditiva e análise avançada de dados."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Estatística",
+        "instituicao": "UFRGS",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Modelo de Previsão de Demanda",
+        "descricao": "Modelo de machine learning para prever vendas."
+      }
+    ],
+    "certificacoes": ["TensorFlow Developer"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["IA", "Deep Learning", "Modelagem Estatística"]
+  },
+
+  {
+    "id": 10,
+    "nome": "João Carvalho",
+    "idade": 34,
+    "foto": "https://conteudo.imguol.com.br/c/entretenimento/d3/2018/12/20/felipe-romao-26-de-carapicuiba-percebi-como-as-mulheres-precisam-abrir-mao-de-coisas-por-seguranca-1545328793231_v2_450x450.jpg.webp",
+    "cargo": "Administrador de Redes",
+    "resumo": "Responsável por infraestrutura de redes corporativas e segurança.",
+    "localizacao": "Manaus/AM",
+    "area": "Infraestrutura",
+    "habilidadesTecnicas": ["Cisco", "Linux", "Firewall", "VPN"],
+    "softSkills": ["Organização", "Gerenciamento de Crises"],
+    "experiencias": [
+      {
+        "empresa": "NetSecure",
+        "cargo": "Network Admin",
+        "inicio": "2017-10",
+        "fim": "Atual",
+        "descricao": "Gerenciamento e monitoramento de redes corporativas."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Tecnologia em Redes",
+        "instituicao": "FAMETRO",
+        "ano": 2015
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Segmentação de Rede",
+        "descricao": "Projeto de segurança com VLANs e firewalls."
+      }
+    ],
+    "certificacoes": ["Cisco CCNA"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Segurança", "Infraestrutura", "SRE"]
+  },
+  {
+    "id": 11,
+    "nome": "Kelly Matsumoto",
+    "idade": 28,
+    "foto": "https://randomuser.me/api/portraits/women/90.jpg",
+    "cargo": "Engenheira de Robótica",
+    "resumo": "Especialista em automação robótica, visão computacional e controle de movimento.",
+    "localizacao": "São Paulo/SP",
+    "area": "Robótica",
+    "habilidadesTecnicas": ["ROS", "Python", "OpenCV", "C++", "Machine Vision"],
+    "softSkills": ["Resolução de Problemas", "Criatividade", "Trabalho em Equipe"],
+    "experiencias": [
+      {
+        "empresa": "RoboWorks",
+        "cargo": "Robotics Engineer",
+        "inicio": "2020-01",
+        "fim": "Atual",
+        "descricao": "Desenvolvimento de sistemas robóticos industriais e visão computacional."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia Mecatrônica",
+        "instituicao": "USP",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Robô Autônomo de Inspeção",
+        "descricao": "Robô móvel com visão computacional para inspeção industrial."
+      }
+    ],
+    "certificacoes": ["ROS Industrial Certification"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["Visão Computacional", "Automação", "Robôs Autônomos"]
+  },
+
+  {
+    "id": 12,
+    "nome": "Leonardo Falcão",
+    "idade": 31,
+    "foto": "https://s2.glbimg.com/vfTtbJ0cBW5_XPgXE84UfAUV2Rc=/620x466/top/e.glbimg.com/og/ed/f/original/2020/03/11/jao.png",
+    "cargo": "Especialista em Blockchain",
+    "resumo": "Desenvolve smart contracts e soluções descentralizadas para empresas.",
+    "localizacao": "Brasília/DF",
+    "area": "Blockchain",
+    "habilidadesTecnicas": ["Solidity", "Ethereum", "Web3.js", "IPFS", "Hardhat"],
+    "softSkills": ["Pensamento Crítico", "Visão Estratégica"],
+    "experiencias": [
+      {
+        "empresa": "BlockWave",
+        "cargo": "Blockchain Developer",
+        "inicio": "2018-05",
+        "fim": "Atual",
+        "descricao": "Desenvolvimento de contratos inteligentes e dApps."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "UNB",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Marketplace Descentralizado",
+        "descricao": "Plataforma blockchain para venda de NFTs e bens digitais."
+      }
+    ],
+    "certificacoes": ["Ethereum Developer Expert"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Web3", "Tokenização", "Smart Contracts"]
+  },
+
+  {
+    "id": 13,
+    "nome": "Marcela Duarte",
+    "idade": 27,
+    "foto": "https://randomuser.me/api/portraits/women/90.jpg",
+    "cargo": "Pesquisadora em Inteligência Artificial",
+    "resumo": "Focada em modelos generativos, LLMs e pesquisa aplicada em IA.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Inteligência Artificial",
+    "habilidadesTecnicas": ["Python", "PyTorch", "Transformers", "Deep Learning"],
+    "softSkills": ["Curiosidade", "Persistência", "Boa Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "AI Research Lab",
+        "cargo": "AI Researcher",
+        "inicio": "2021-04",
+        "fim": "Atual",
+        "descricao": "Pesquisa e desenvolvimento de modelos de IA de última geração."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Mestrado em IA",
+        "instituicao": "PUC-Rio",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Modelo Generativo Multimodal",
+        "descricao": "Projeto de IA capaz de gerar texto e imagens simultaneamente."
+      }
+    ],
+    "certificacoes": ["DeepLearning.ai Specialization"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["IA Generativa", "LLMs", "Pesquisa Científica"]
+  },
+
+  {
+    "id": 14,
+    "nome": "Rafael Montenegro",
+    "idade": 25,
+    "foto": "https://conteudo.imguol.com.br/c/entretenimento/d3/2018/12/20/felipe-romao-26-de-carapicuiba-percebi-como-as-mulheres-precisam-abrir-mao-de-coisas-por-seguranca-1545328793231_v2_450x450.jpg.webp",
+    "cargo": "Engenheiro de Realidade Aumentada (AR)",
+    "resumo": "Cria experiências e sistemas de AR com foco em tecnologia imersiva.",
+    "localizacao": "Florianópolis/SC",
+    "area": "XR",
+    "habilidadesTecnicas": ["Unity", "C#", "ARKit", "ARCore", "Vuforia"],
+    "softSkills": ["Criatividade", "Pensamento Visual"],
+    "experiencias": [
+      {
+        "empresa": "ImmersiveLab",
+        "cargo": "AR Engineer",
+        "inicio": "2022-02",
+        "fim": "Atual",
+        "descricao": "Desenvolvimento de aplicações de realidade aumentada."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Jogos Digitais",
+        "instituicao": "UDESC",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Aplicativo de AR Educacional",
+        "descricao": "App que transforma conteúdos escolares em experiências 3D."
+      }
+    ],
+    "certificacoes": [],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["XR", "3D", "Interação Humano-Computador"]
+  },
+
+  {
+    "id": 15,
+    "nome": "Sofia Queiroz",
+    "idade": 33,
+    "foto": "https://randomuser.me/api/portraits/women/90.jpg",
+    "cargo": "Engenheira de Realidade Virtual (VR)",
+    "resumo": "Especialista em criação de ambientes 3D e experiências imersivas.",
+    "localizacao": "Recife/PE",
+    "area": "XR",
+    "habilidadesTecnicas": ["Unreal Engine", "C++", "3D Modeling", "VR Interactions"],
+    "softSkills": ["Criatividade", "Colaboração"],
+    "experiencias": [
+      {
+        "empresa": "VirtualSpace",
+        "cargo": "VR Engineer",
+        "inicio": "2018-09",
+        "fim": "Atual",
+        "descricao": "Criação de simuladores imersivos e ambientes 3D."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design de Jogos",
+        "instituicao": "UFPE",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Simulador de Treinamento VR",
+        "descricao": "Ambiente virtual para treinamento industrial."
+      }
+    ],
+    "certificacoes": ["Unreal Engine Professional"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Simulações", "VR", "Engines 3D"]
+  },
+
+  {
+    "id": 16,
+    "nome": "Thiago Camurça",
+    "idade": 29,
+    "foto": "https://s2.glbimg.com/vfTtbJ0cBW5_XPgXE84UfAUV2Rc=/620x466/top/e.glbimg.com/og/ed/f/original/2020/03/11/jao.png",
+    "cargo": "Desenvolvedor IoT",
+    "resumo": "Cria sistemas inteligentes usando sensores, microcontroladores e conectividade.",
+    "localizacao": "Belém/PA",
+    "area": "IoT",
+    "habilidadesTecnicas": ["ESP32", "MQTT", "C++", "Arduino", "AWS IoT"],
+    "softSkills": ["Organização", "Criatividade"],
+    "experiencias": [
+      {
+        "empresa": "SmartThings BR",
+        "cargo": "IoT Developer",
+        "inicio": "2020-06",
+        "fim": "Atual",
+        "descricao": "Criação de dispositivos conectados e automações inteligentes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia Eletrônica",
+        "instituicao": "UFPA",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Sistema de Irrigação Automático IoT",
+        "descricao": "Sistema inteligente de irrigação com sensores de solo."
+      }
+    ],
+    "certificacoes": ["AWS IoT Foundations"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Básico" }
+    ],
+    "areaInteresses": ["IoT", "Hardware", "Automação Residencial"]
+  },
+
+  {
+    "id": 17,
+    "nome": "Vanessa Ribeiro",
+    "idade": 38,
+    "foto": "https://randomuser.me/api/portraits/women/90.jpg",
+    "cargo": "Engenheira de Segurança Ofensiva (Red Team)",
+    "resumo": "Especialista em exploração, invasão controlada e testes de intrusão.",
+    "localizacao": "São Paulo/SP",
+    "area": "Segurança",
+    "habilidadesTecnicas": ["Kali Linux", "Metasploit", "Burp Suite", "Python", "Pentest"],
+    "softSkills": ["Pensamento Analítico", "Discrição"],
+    "experiencias": [
+      {
+        "empresa": "CyberHunter",
+        "cargo": "Red Team Engineer",
+        "inicio": "2017-03",
+        "fim": "Atual",
+        "descricao": "Execução de ataques simulados e avaliações ofensivas."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Segurança da Informação",
+        "instituicao": "FIAP",
+        "ano": 2014
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Simulação de Ataque Zero-Day",
+        "descricao": "Exercício de invasão controlada para grande corporação."
+      }
+    ],
+    "certificacoes": ["OSCP", "CEH"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Segurança Ofensiva", "Forense Digital", "Exploração"]
+  },
+
+  {
+    "id": 18,
+    "nome": "William França",
+    "idade": 30,
+    "foto": "https://s2.glbimg.com/vfTtbJ0cBW5_XPgXE84UfAUV2Rc=/620x466/top/e.glbimg.com/og/ed/f/original/2020/03/11/jao.png",
+    "cargo": "Engenheiro de Sistemas Embarcados",
+    "resumo": "Trabalha com sistemas de baixo nível e hardware customizado.",
+    "localizacao": "Joinville/SC",
+    "area": "Embarcados",
+    "habilidadesTecnicas": ["C", "C++", "RTOS", "ARM", "PCB Design"],
+    "softSkills": ["Precisão", "Organização"],
+    "experiencias": [
+      {
+        "empresa": "HardTech",
+        "cargo": "Embedded Engineer",
+        "inicio": "2016-08",
+        "fim": "Atual",
+        "descricao": "Desenvolvimento de firmware e sistemas embarcados críticos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia Elétrica",
+        "instituicao": "UFSC",
+        "ano": 2015
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Firmware para Drones Industriais",
+        "descricao": "Desenvolvimento de sistema embarcado para controle de voo."
+      }
+    ],
+    "certificacoes": ["Embedded Systems Professional"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Circuitos", "RTOS", "Hardware"]
+  },
+
+  {
+    "id": 19,
+    "nome": "Xavier Monteiro",
+    "idade": 34,
+    "foto": "https://conteudo.imguol.com.br/c/entretenimento/d3/2018/12/20/felipe-romao-26-de-carapicuiba-percebi-como-as-mulheres-precisam-abrir-mao-de-coisas-por-seguranca-1545328793231_v2_450x450.jpg.webp",
+    "cargo": "Especialista em Computação Quântica",
+    "resumo": "Pesquisa algoritmos quânticos e computação de última geração.",
+    "localizacao": "Campinas/SP",
+    "area": "Computação Quântica",
+    "habilidadesTecnicas": ["Qiskit", "Python", "Quantum Circuits", "Machine Learning"],
+    "softSkills": ["Abstração", "Pensamento Científico"],
+    "experiencias": [
+      {
+        "empresa": "QuantumBR",
+        "cargo": "Quantum Specialist",
+        "inicio": "2020-11",
+        "fim": "Atual",
+        "descricao": "Desenvolvimento de algoritmos e experimentos quânticos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Doutorado em Física Quântica",
+        "instituicao": "UNICAMP",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Algoritmo Quântico Híbrido",
+        "descricao": "Pesquisa de técnicas híbridas clássico-quântico."
+      }
+    ],
+    "certificacoes": ["IBM Quantum Developer"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["Qubits", "Algoritmos Quânticos", "Física Computacional"]
+  },
+
+  {
+    "id": 20,
+    "nome": "Yasmin Oliveira",
+    "idade": 23,
+    "foto": "https://randomuser.me/api/portraits/women/55.jpg",
+    "cargo": "Desenvolvedora Web3",
+    "resumo": "Focada em dApps interativos, tokens e soluções descentralizadas.",
+    "localizacao": "São Paulo/SP",
+    "area": "Web3",
+    "habilidadesTecnicas": ["Solidity", "Next.js", "Wagmi", "Ethers.js", "Polygon"],
+    "softSkills": ["Comunicação", "Colaboração"],
+    "experiencias": [
+      {
+        "empresa": "NovaChain",
+        "cargo": "Web3 Developer",
+        "inicio": "2023-01",
+        "fim": "Atual",
+        "descricao": "Criação de interfaces Web3 e smart contracts."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "FATEC",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma DeFi",
+        "descricao": "Aplicação Web3 para empréstimos descentralizados."
+      }
+    ],
+    "certificacoes": ["Blockchain Developer Certification"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["DeFi", "Web3", "Cripto"]
+  },
+  {
+    "id": 21,
+    "nome": "Isabela Furtado",
+    "idade": 27,
+    "foto": "https://randomuser.me/api/portraits/women/55.jpg",
+    "cargo": "Desenvolvedora Frontend Sênior",
+    "resumo": "Cria interfaces otimizadas usando tecnologias modernas e experimentais.",
+    "localizacao": "São Paulo/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["React", "Typescript", "Next.js", "Astro", "Framer Motion"],
+    "softSkills": ["Colaboração", "Pensamento crítico", "Organização"],
+    "experiencias": [
+      {
+        "empresa": "NeonSoft",
+        "cargo": "Frontend Engineer",
+        "inicio": "2021-02",
+        "fim": "Atual",
+        "descricao": "Desenvolvimento de interfaces performáticas e animações avançadas."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "FIAP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Dashboard de Análises Reais",
+        "descricao": "Sistema completo usando Next.js, Server Components e IA generativa."
+      }
+    ],
+    "certificacoes": ["Google UX/UI Certificate"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Web Performance", "WebGPU", "UX Avançado"]
+  },
+
+  {
+    "id": 22,
+    "nome": "Juliano Martins",
+    "idade": 34,
+    "foto": "https://s2.glbimg.com/vfTtbJ0cBW5_XPgXE84UfAUV2Rc=/620x466/top/e.glbimg.com/og/ed/f/original/2020/03/11/jao.png",
+    "cargo": "Engenheiro de Dados Sênior",
+    "resumo": "Especialista em processamentos distribuídos e arquiteturas orientadas a eventos.",
+    "localizacao": "Campinas/SP",
+    "area": "Dados",
+    "habilidadesTecnicas": ["Apache Kafka", "Python", "Airflow", "Spark Streaming", "Snowflake"],
+    "softSkills": ["Comunicação", "Liderança", "Raciocínio lógico"],
+    "experiencias": [
+      {
+        "empresa": "DataHub Analytics",
+        "cargo": "Data Engineer",
+        "inicio": "2018-05",
+        "fim": "Atual",
+        "descricao": "Construção de pipelines distribuídos e sistemas em tempo real."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Computação",
+        "instituicao": "UNICAMP",
+        "ano": 2015
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Pipeline de Eventos Reais",
+        "descricao": "Integração com múltiplas fontes, processamento e armazenamento escalável."
+      }
+    ],
+    "certificacoes": ["SnowPro Core"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["Big Data", "Engenharia de Streaming", "IA aplicada a dados"]
+  },
+  {
+    "id": 23,
+    "nome": "Caroline Azevedo",
+    "idade": 30,
+    "foto": "https://randomuser.me/api/portraits/women/55.jpg",
+    "cargo": "Cientista de Dados",
+    "resumo": "Modelagem preditiva avançada e experimentos estatísticos escaláveis.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Dados",
+    "habilidadesTecnicas": ["Python", "TensorFlow", "R", "JAX", "MLFlow"],
+    "softSkills": ["Curiosidade", "Comunicação clara", "Visão analítica"],
+    "experiencias": [
+      {
+        "empresa": "InsightAI",
+        "cargo": "Data Scientist",
+        "inicio": "2020-01",
+        "fim": "Atual",
+        "descricao": "Construção de modelos de previsão e otimização de experimentos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Estatística",
+        "instituicao": "UFRJ",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Predição de Demanda",
+        "descricao": "Modelo preditivo para grandes varejistas usando séries temporais híbridas."
+      }
+    ],
+    "certificacoes": ["TensorFlow Developer Certificate"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["IA Generativa", "Modelos Fundacionais", "Deep Learning acelerado"]
+  },
+  {
+    "id": 24,
+    "nome": "Rafael Kunz",
+    "idade": 31,
+    "foto": "https://conteudo.imguol.com.br/c/entretenimento/d3/2018/12/20/felipe-romao-26-de-carapicuiba-percebi-como-as-mulheres-precisam-abrir-mao-de-coisas-por-seguranca-1545328793231_v2_450x450.jpg.webp",
+    "cargo": "Desenvolvedor Mobile",
+    "resumo": "Cria aplicativos híbridos e soluções mobile com foco em animações e performance.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["Flutter", "Dart", "Bloc", "Supabase", "Rust (FFI)"],
+    "softSkills": ["Proatividade", "Criatividade", "Gestão de tempo"],
+    "experiencias": [
+      {
+        "empresa": "Mobify",
+        "cargo": "Mobile Developer",
+        "inicio": "2021-10",
+        "fim": "Atual",
+        "descricao": "Desenvolvimento de apps escaláveis e integrações com bibliotecas nativas."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "UNISINOS",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "App de Automação Residencial",
+        "descricao": "Aplicativo com suporte a BLE e controle por voz."
+      }
+    ],
+    "certificacoes": ["Flutter Professional"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Animação mobile", "Híbridos com Rust", "IoT Mobile"]
+  },
+  {
+    "id": 25,
+    "nome": "Helena Duarte",
+    "idade": 33,
+    "foto": "https://randomuser.me/api/portraits/women/55.jpg",
+    "cargo": "DevOps Engineer",
+    "resumo": "Especialista em CI/CD, automação e infraestrutura resiliente.",
+    "localizacao": "Florianópolis/SC",
+    "area": "Infraestrutura",
+    "habilidadesTecnicas": ["Kubernetes", "Terraform", "ArgoCD", "Helm", "OpenTelemetry"],
+    "softSkills": ["Resolução de problemas", "Organização", "Colaboração"],
+    "experiencias": [
+      {
+        "empresa": "CloudWave",
+        "cargo": "DevOps",
+        "inicio": "2019-07",
+        "fim": "Atual",
+        "descricao": "Automação de deploys e observabilidade de sistemas."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "UFSC",
+        "ano": 2015
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Stack de Observabilidade",
+        "descricao": "Integração completa com logs, métricas e traces em nuvem."
+      }
+    ],
+    "certificacoes": ["CKA – Kubernetes Administrator"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["FinOps", "Platform Engineering", "IA para automação DevOps"]
+  },
+
+  {
+    "id": 26,
+    "nome": "Samuel Oliveira",
+    "idade": 29,
+    "foto": "https://s2.glbimg.com/vfTtbJ0cBW5_XPgXE84UfAUV2Rc=/620x466/top/e.glbimg.com/og/ed/f/original/2020/03/11/jao.png",
+    "cargo": "UX/UI Designer",
+    "resumo": "Cria experiências inovadoras com foco em acessibilidade e navegação cognitiva.",
+    "localizacao": "Salvador/BA",
+    "area": "Design",
+    "habilidadesTecnicas": ["Figma", "Design Tokens", "Motion Design", "A11y", "Prototipagem 3D"],
+    "softSkills": ["Empatia", "Comunicação", "Visão artística"],
+    "experiencias": [
+      {
+        "empresa": "NovaUX",
+        "cargo": "Product Designer",
+        "inicio": "2020-08",
+        "fim": "Atual",
+        "descricao": "Criação de fluxos complexos e animações responsivas."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "UNEB",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Interface 3D Interativa",
+        "descricao": "Dashboard com elementos tridimensionais navegáveis."
+      }
+    ],
+    "certificacoes": ["Advanced Design Thinking"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["UI Animations", "Design neurocognitivo", "3D Web"]
+  },
+
+  {
+    "id": 27,
+    "nome": "Vivian Castro",
+    "idade": 36,
+    "foto": "https://randomuser.me/api/portraits/women/55.jpg",
+    "cargo": "Engenheira de Machine Learning",
+    "resumo": "Desenvolve pipelines de treinamento e modelos de IA de larga escala.",
+    "localizacao": "Curitiba/PR",
+    "area": "IA",
+    "habilidadesTecnicas": ["PyTorch", "HuggingFace", "ONNX Runtime", "Ray", "CUDA"],
+    "softSkills": ["Análise crítica", "Autogestão", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "VisionAI",
+        "cargo": "ML Engineer",
+        "inicio": "2017-11",
+        "fim": "Atual",
+        "descricao": "Desenvolvimento e deploy de modelos fundacionais otimizados."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "UTFPR",
+        "ano": 2014
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Modelo de Classificação Multimodal",
+        "descricao": "Arquitetura unindo visão computacional e linguagem natural."
+      }
+    ],
+    "certificacoes": ["HuggingFace ML Engineer"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["Modelos multimodais", "Treinamento distribuído", "IA aplicada"]
+  },
+
+  {
+    "id": 28,
+    "nome": "Thiago Pimenta",
+    "idade": 28,
+    "foto": "https://conteudo.imguol.com.br/c/entretenimento/d3/2018/12/20/felipe-romao-26-de-carapicuiba-percebi-como-as-mulheres-precisam-abrir-mao-de-coisas-por-seguranca-1545328793231_v2_450x450.jpg.webp",
+    "cargo": "Arquiteto de Software",
+    "resumo": "Define arquiteturas robustas, escaláveis e seguras para grandes plataformas.",
+    "localizacao": "São Paulo/SP",
+    "area": "Arquitetura",
+    "habilidadesTecnicas": ["DDD", "Event Sourcing", "NestJS", "Go", "Redis Streams"],
+    "softSkills": ["Liderança técnica", "Visão sistêmica", "Clareza comunicativa"],
+    "experiencias": [
+      {
+        "empresa": "CoreSystems",
+        "cargo": "Software Architect",
+        "inicio": "2020-03",
+        "fim": "Atual",
+        "descricao": "Arquitetura de microsserviços e padronização de boas práticas."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "USP",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Plataforma Modular",
+        "descricao": "Arquitetura orientada a eventos com alta resiliência."
+      }
+    ],
+    "certificacoes": ["TOGAF Foundation"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["Arquitetura distribuída", "CQRS", "Event Driven"]
+  },
+
+  {
+    "id": 29,
+    "nome": "Jéssica Moura",
+    "idade": 25,
+    "foto": "https://randomuser.me/api/portraits/women/55.jpg",
+    "cargo": "Engenheira de Segurança da Informação",
+    "resumo": "Especialista em análise de vulnerabilidades e proteção de sistemas modernos.",
+    "localizacao": "Brasília/DF",
+    "area": "Segurança",
+    "habilidadesTecnicas": ["Pentest", "Burp Suite", "SIEM", "Forense Digital", "Shodan"],
+    "softSkills": ["Pensamento crítico", "Atenção aos detalhes", "Raciocínio lógico"],
+    "experiencias": [
+      {
+        "empresa": "SecOps Labs",
+        "cargo": "Security Engineer",
+        "inicio": "2021-04",
+        "fim": "Atual",
+        "descricao": "Realização de pentests e implementação de políticas de segurança."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Segurança da Informação",
+        "instituicao": "UnB",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Hardening Corporativo",
+        "descricao": "Projeto completo de segurança com reforço de políticas e testes."
+      }
+    ],
+    "certificacoes": ["CEH – Certified Ethical Hacker"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Cibersegurança ofensiva", "Análise forense", "Segurança em IA"]
+  },
+
+  {
+    "id": 30,
+    "nome": "Ricardo Yamane",
+    "idade": 38,
+    "foto": "https://s2.glbimg.com/vfTtbJ0cBW5_XPgXE84UfAUV2Rc=/620x466/top/e.glbimg.com/og/ed/f/original/2020/03/11/jao.png",
+    "cargo": "Engenheiro de Computação Quântica",
+    "resumo": "Pesquisa e desenvolvimento em computação quântica aplicada.",
+    "localizacao": "São Paulo/SP",
+    "area": "Computação Quântica",
+    "habilidadesTecnicas": ["Qiskit", "Cirq", "Q#", "Linear Algebra", "Quantum ML"],
+    "softSkills": ["Pensamento matemático", "Precisão", "Comunicação científica"],
+    "experiencias": [
+      {
+        "empresa": "QuantumLab",
+        "cargo": "Quantum Engineer",
+        "inicio": "2016-09",
+        "fim": "Atual",
+        "descricao": "Desenvolvimento de algoritmos quânticos e simulações."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Física Computacional",
+        "instituicao": "USP",
+        "ano": 2012
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Algoritmo de Otimização Quântica",
+        "descricao": "Implementação de modelos híbridos quântico-clássicos."
+      }
+    ],
+    "certificacoes": ["IBM Quantum Certified"],
     "idiomas": [
       { "idioma": "Inglês", "nivel": "Fluente" },
-      { "idioma": "Francês", "nivel": "Básico" },
-      { "idioma": "Espanhol", "nivel": "Intermediário" }
+      { "idioma": "Japonês", "nivel": "Básico" }
     ],
-    "areaInteresses": ["Backend", "APIs", "Circuitos, IOT", "Frontend", "UX/UI Design" ]
-  } 
+    "areaInteresses": ["QML", "Quantum Networking", "Qubits Supercondutores"]
+  },
+  {
+    "id": 41,
+    "nome": "Bruna Carvalho",
+    "idade": 25,
+    "foto": "https://randomuser.me/api/portraits/women/12.jpg",
+    "cargo": "Desenvolvedora Backend Júnior",
+    "resumo": "Apaixonada por APIs e estruturas de dados.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["Node.js", "Express", "Docker"],
+    "softSkills": ["Organização", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "DataHub",
+        "cargo": "Estagiária de Backend",
+        "inicio": "2023-02",
+        "fim": "2024-01",
+        "descricao": "Criação de endpoints REST e manutenção de banco de dados."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "PUC Minas",
+        "ano": 2024
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["APIs", "Banco de Dados", "Microserviços"]
+  },
+
+  {
+    "id": 42,
+    "nome": "Alan Ribeiro",
+    "idade": 34,
+    "foto": "https://s2.glbimg.com/vfTtbJ0cBW5_XPgXE84UfAUV2Rc=/620x466/top/e.glbimg.com/og/ed/f/original/2020/03/11/jao.png",
+    "cargo": "Cientista de Dados Sênior",
+    "resumo": "Especialista em modelagem estatística aplicada a negócios.",
+    "localizacao": "Curitiba/PR",
+    "area": "Dados",
+    "habilidadesTecnicas": ["Python", "TensorFlow", "SQL", "Spark"],
+    "softSkills": ["Liderança", "Análise Crítica"],
+    "experiencias": [
+      {
+        "empresa": "InsightAI",
+        "cargo": "Cientista de Dados",
+        "inicio": "2018-01",
+        "fim": "Atual",
+        "descricao": "Desenvolvimento de modelos preditivos e pipelines de dados."
+      },
+      {
+        "empresa": "FinTechX",
+        "cargo": "Analista de Dados",
+        "inicio": "2014-03",
+        "fim": "2017-12",
+        "descricao": "Estruturação de dashboards analíticos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia da Computação",
+        "instituicao": "UTFPR",
+        "ano": 2014
+      }
+    ],
+    "projetos": [
+      { "titulo": "Modelo Preditivo para Crédito", "descricao": "Sistema usado em fintechs para análise de risco." },
+      { "titulo": "Pipeline de Big Data", "descricao": "Processamento distribuído com Spark." }
+    ],
+    "certificacoes": ["TensorFlow Developer", "AWS Data Analytics"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["Machine Learning", "Big Data", "MLOps"]
+  },
+
+  {
+    "id": 43,
+    "nome": "Kelly Morais",
+    "idade": 29,
+    "foto": "https://randomuser.me/api/portraits/women/55.jpg",
+    "cargo": "UI/UX Designer Plena",
+    "resumo": "Cria interfaces acessíveis focadas em experiência do usuário.",
+    "localizacao": "Recife/PE",
+    "area": "Design",
+    "habilidadesTecnicas": ["Figma", "Adobe XD", "Design System"],
+    "softSkills": ["Empatia", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "PixelHouse",
+        "cargo": "UX Designer",
+        "inicio": "2020-05",
+        "fim": "Atual",
+        "descricao": "Pesquisa e prototipação de interfaces de aplicativos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "UFPE",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      { "titulo": "Design System Phoenix", "descricao": "Sistema visual utilizado por 5 squads." }
+    ],
+    "certificacoes": ["UX Research Advanced (Mergo)"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Acessibilidade", "Design System", "UX Research"]
+  },
+
+  {
+    "id": 44,
+    "nome": "Samuel Prado",
+    "idade": 31,
+    "foto": "https://s2.glbimg.com/vfTtbJ0cBW5_XPgXE84UfAUV2Rc=/620x466/top/e.glbimg.com/og/ed/f/original/2020/03/11/jao.png",
+    "cargo": "Engenheiro de DevOps",
+    "resumo": "Automatiza pipelines e orquestra infraestrutura em nuvem.",
+    "localizacao": "Florianópolis/SC",
+    "area": "Infraestrutura",
+    "habilidadesTecnicas": ["AWS", "Terraform", "Kubernetes", "GitLab CI"],
+    "softSkills": ["Resolução de Problemas", "Proatividade"],
+    "experiencias": [
+      {
+        "empresa": "CloudBridge",
+        "cargo": "DevOps",
+        "inicio": "2019-02",
+        "fim": "Atual",
+        "descricao": "Automação de pipelines, infraestrutura como código e monitoramento."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Redes de Computadores",
+        "instituicao": "IFSC",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      { "titulo": "Cluster Kubernetes Financeiro", "descricao": "Migração de apps legados para microserviços." }
+    ],
+    "certificacoes": ["CKA", "AWS SysOps"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["CI/CD", "SRE", "Observabilidade"]
+  },
+
+  {
+    "id": 45,
+    "nome": "Marina Duarte",
+    "idade": 22,
+    "foto": "https://randomuser.me/api/portraits/women/83.jpg",
+    "cargo": "Desenvolvedora Mobile Júnior",
+    "resumo": "Fã de apps intuitivos e bem animados.",
+    "localizacao": "Fortaleza/CE",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["Flutter", "Dart"],
+    "softSkills": ["Criatividade", "Trabalho em Equipe"],
+    "experiencias": [
+      {
+        "empresa": "Appify",
+        "cargo": "Estagiária Mobile",
+        "inicio": "2023-01",
+        "fim": "2024-01",
+        "descricao": "Criação de interfaces e componentes reutilizáveis."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "Estácio",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      { "titulo": "App de Receitas Fit", "descricao": "Aplicativo pessoal publicado na Play Store." }
+    ],
+    "certificacoes": [],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Básico" }
+    ],
+    "areaInteresses": ["Mobile", "Animações", "Arquiteturas Limpa"]
+  },
+
+  {
+    "id": 46,
+    "nome": "Rodrigo Nascimento",
+    "idade": 37,
+    "foto": "https://s2.glbimg.com/vfTtbJ0cBW5_XPgXE84UfAUV2Rc=/620x466/top/e.glbimg.com/og/ed/f/original/2020/03/11/jao.png",
+    "cargo": "Arquiteto de Software",
+    "resumo": "Cria arquiteturas escaláveis para grandes sistemas.",
+    "localizacao": "São Paulo/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["Java", "Spring Boot", "Kafka", "Kubernetes"],
+    "softSkills": ["Liderança", "Visão Estratégica"],
+    "experiencias": [
+      {
+        "empresa": "MegaSystems",
+        "cargo": "Arquiteto",
+        "inicio": "2016-08",
+        "fim": "Atual",
+        "descricao": "Responsável por definição de arquiteturas corporativas."
+      },
+      {
+        "empresa": "SoftSolutions",
+        "cargo": "Desenvolvedor Senior",
+        "inicio": "2012-01",
+        "fim": "2016-06",
+        "descricao": "Desenvolvimento de microserviços e integrações."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "USP",
+        "ano": 2011
+      }
+    ],
+    "projetos": [
+      { "titulo": "Plataforma Financeira Escalável", "descricao": "Soporte para 3 milhões de usuários." },
+      { "titulo": "Arquitetura Event-Driven", "descricao": "Sistema baseado em eventos com Kafka." }
+    ],
+    "certificacoes": ["Oracle Java Architect"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["Arquitetura Limpa", "Eventos", "Escalabilidade"]
+  },
+
+  {
+    "id": 47,
+    "nome": "Letícia Farias",
+    "idade": 28,
+    "foto": "https://randomuser.me/api/portraits/women/32.jpg",
+    "cargo": "Engenheira de Qualidade de Software",
+    "resumo": "Garante produtos estáveis por meio de testes automatizados.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Qualidade",
+    "habilidadesTecnicas": ["Cypress", "Selenium", "Jest"],
+    "softSkills": ["Detalhismo", "Colaboração"],
+    "experiencias": [
+      {
+        "empresa": "QualityTech",
+        "cargo": "QA Analyst",
+        "inicio": "2019-01",
+        "fim": "Atual",
+        "descricao": "Criação de testes E2E e automação."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência da Computação",
+        "instituicao": "UERJ",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["ISTQB Foundation"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Automação", "Testes E2E", "Qualidade"]
+  },
+
+  {
+    "id": 48,
+    "nome": "Daniel Henriques",
+    "idade": 33,
+    "foto": "https://s2.glbimg.com/vfTtbJ0cBW5_XPgXE84UfAUV2Rc=/620x466/top/e.glbimg.com/og/ed/f/original/2020/03/11/jao.png",
+    "cargo": "Engenheiro de Dados",
+    "resumo": "Constrói pipelines robustos e escaláveis.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Dados",
+    "habilidadesTecnicas": ["Python", "Airflow", "SQL", "AWS"],
+    "softSkills": ["Pensamento Analítico", "Trabalho em Equipe"],
+    "experiencias": [
+      {
+        "empresa": "DataFlow",
+        "cargo": "Engenheiro de Dados",
+        "inicio": "2017-04",
+        "fim": "Atual",
+        "descricao": "Criação de pipelines e estruturas de armazenamento."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Computação",
+        "instituicao": "UFRGS",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      { "titulo": "Pipeline de Data Lake", "descricao": "Arquitetura de ingestão diária de 500GB." }
+    ],
+    "certificacoes": ["AWS Practitioner"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["ETL", "Cloud Data", "Data Lake"]
+  },
+
+  {
+    "id": 49,
+    "nome": "Carla Muniz",
+    "idade": 38,
+    "foto": "https://randomuser.me/api/portraits/women/90.jpg",
+    "cargo": "Gerente de Projetos de TI",
+    "resumo": "Coordena equipes ágeis em projetos de alta complexidade.",
+    "localizacao": "São Paulo/SP",
+    "area": "Gestão",
+    "habilidadesTecnicas": ["Scrum", "Kanban", "Jira"],
+    "softSkills": ["Liderança", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "AgileWorks",
+        "cargo": "Project Manager",
+        "inicio": "2015-03",
+        "fim": "Atual",
+        "descricao": "Gestão de portfólio de produtos digitais."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Gestão da Tecnologia da Informação",
+        "instituicao": "USP",
+        "ano": 2013
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["PMP", "CSM"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["Agile", "Liderança", "Gestão"]
+  },
+
+  {
+    "id": 50,
+    "nome": "Eduardo Moraes",
+    "idade": 27,
+    "foto": "https://s2.glbimg.com/vfTtbJ0cBW5_XPgXE84UfAUV2Rc=/620x466/top/e.glbimg.com/og/ed/f/original/2020/03/11/jao.png",
+    "cargo": "Desenvolvedor Full Stack",
+    "resumo": "Atua em aplicações completas com front e back.",
+    "localizacao": "Niterói/RJ",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["React", "Node.js", "PostgreSQL"],
+    "softSkills": ["Comunicação", "Trabalho em Equipe"],
+    "experiencias": [
+      {
+        "empresa": "DevSpace",
+        "cargo": "Full Stack Developer",
+        "inicio": "2020-04",
+        "fim": "Atual",
+        "descricao": "Desenvolvimento de aplicações completas."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "ADS",
+        "instituicao": "IFF",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      { "titulo": "Plataforma de Cursos", "descricao": "Sistema de ensino online." }
+    ],
+    "certificacoes": ["MongoDB Fundamentals"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Web", "APIs", "SaaS"]
+  },
+
+  {
+    "id": 51,
+    "nome": "Julio Torres",
+    "idade": 30,
+    "foto": "https://s2.glbimg.com/vfTtbJ0cBW5_XPgXE84UfAUV2Rc=/620x466/top/e.glbimg.com/og/ed/f/original/2020/03/11/jao.png",
+    "cargo": "Product Owner",
+    "resumo": "Transforma necessidades em produtos funcionais.",
+    "localizacao": "Campinas/SP",
+    "area": "Produto",
+    "habilidadesTecnicas": ["Roadmaps", "Scrum", "Jira"],
+    "softSkills": ["Comunicação", "Visão Estratégica"],
+    "experiencias": [
+      {
+        "empresa": "ProdTech",
+        "cargo": "PO",
+        "inicio": "2019-02",
+        "fim": "Atual"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Administração",
+        "instituicao": "PUC",
+        "ano": 2018
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Produto Digital", "Pesquisa", "UX"]
+  },
+
+  {
+    "id": 52,
+    "nome": "Isabela Fontes",
+    "idade": 24,
+    "foto": "https://randomuser.me/api/portraits/women/13.jpg",
+    "cargo": "DevOps Júnior",
+    "resumo": "Automação e pipelines são suas paixões.",
+    "localizacao": "João Pessoa/PB",
+    "area": "Infraestrutura",
+    "habilidadesTecnicas": ["Docker", "GitHub Actions"],
+    "softSkills": ["Organização", "Proatividade"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "ADS",
+        "instituicao": "IFPB",
+        "ano": 2023
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Básico" }
+    ],
+    "areaInteresses": ["CI/CD", "Containers"]
+  },
+
+  {
+    "id": 53,
+    "nome": "Mauro Kalebe",
+    "idade": 33,
+    "foto": "https://s2.glbimg.com/vfTtbJ0cBW5_XPgXE84UfAUV2Rc=/620x466/top/e.glbimg.com/og/ed/f/original/2020/03/11/jao.png",
+    "cargo": "Engenheiro de Machine Learning",
+    "resumo": "Cria modelos produtivos em escala.",
+    "localizacao": "São Paulo/SP",
+    "area": "Dados",
+    "habilidadesTecnicas": ["Python", "MLFlow", "FastAPI"],
+    "softSkills": ["Lógica", "Análise"],
+    "experiencias": [
+      {
+        "empresa": "NeoML",
+        "cargo": "ML Engineer",
+        "inicio": "2020-03",
+        "fim": "Atual"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciência de Dados",
+        "instituicao": "Mackenzie",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      { "titulo": "Sistema de Recomendação", "descricao": "Recomenda produtos com base em comportamento." }
+    ],
+    "certificacoes": ["ML Specialist"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["Model Deployment", "AI"]
+  },
+
+  {
+    "id": 54,
+    "nome": "Fernanda Pascoal",
+    "idade": 21,
+    "foto": "https://randomuser.me/api/portraits/women/18.jpg",
+    "cargo": "Desenvolvedora Frontend Júnior",
+    "resumo": "Apaixonada por UI bem estruturada.",
+    "localizacao": "Salvador/BA",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["React", "Tailwind CSS"],
+    "softSkills": ["Comunicação"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "ADS",
+        "instituicao": "UNIFACS",
+        "ano": 2024
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Básico" }
+    ],
+    "areaInteresses": ["Frontend", "Design System"]
+  },
+
+  {
+    "id": 55,
+    "nome": "Tiago Brito",
+    "idade": 40,
+    "foto": "https://s2.glbimg.com/vfTtbJ0cBW5_XPgXE84UfAUV2Rc=/620x466/top/e.glbimg.com/og/ed/f/original/2020/03/11/jao.png",
+    "cargo": "Consultor de Segurança da Informação",
+    "resumo": "Especialista em segurança ofensiva.",
+    "localizacao": "Brasília/DF",
+    "area": "Segurança",
+    "habilidadesTecnicas": ["Pentest", "Kali Linux", "Firewall"],
+    "softSkills": ["Pensamento Crítico"],
+    "experiencias": [
+      {
+        "empresa": "SecureNet",
+        "cargo": "Consultor",
+        "inicio": "2013-01",
+        "fim": "Atual"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Redes",
+        "instituicao": "UnB",
+        "ano": 2011
+      }
+    ],
+    "projetos": [
+      { "titulo": "Red Team para bancos", "descricao": "Testes ofensivos em ambientes financeiros." }
+    ],
+    "certificacoes": ["CEH", "Security+"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["CyberSec", "Pentest"]
+  },
+
+  {
+    "id": 56,
+    "nome": "Júlia Nasser",
+    "idade": 23,
+    "foto": "https://randomuser.me/api/portraits/women/41.jpg",
+    "cargo": "Analista de Suporte Técnico",
+    "resumo": "Ajuda usuários e empresas com infraestrutura básica.",
+    "localizacao": "São Luís/MA",
+    "area": "Suporte",
+    "habilidadesTecnicas": ["Windows Server", "Linux", "Redes"],
+    "softSkills": ["Paciência", "Comunicação"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Redes de Computadores",
+        "instituicao": "UFMA",
+        "ano": 2023
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Básico" }
+    ],
+    "areaInteresses": ["Infraestrutura", "Help Desk"]
+  },
+
+  {
+    "id": 57,
+    "nome": "Pietro Silva",
+    "idade": 32,
+    "foto": "https://s2.glbimg.com/vfTtbJ0cBW5_XPgXE84UfAUV2Rc=/620x466/top/e.glbimg.com/og/ed/f/original/2020/03/11/jao.png",
+    "cargo": "Engenheiro de Software Sênior",
+    "resumo": "Cria soluções robustas orientadas a microsserviços.",
+    "localizacao": "Campinas/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["Go", "Kafka", "AWS"],
+    "softSkills": ["Liderança", "Mentoria"],
+    "experiencias": [
+      {
+        "empresa": "GoTech",
+        "cargo": "Senior Engineer",
+        "inicio": "2015-06",
+        "fim": "Atual"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "Unicamp",
+        "ano": 2014
+      }
+    ],
+    "projetos": [
+      { "titulo": "Sistema Assíncrono Financeiro", "descricao": "Altíssima performance em eventos." }
+    ],
+    "certificacoes": [],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Fluente" }
+    ],
+    "areaInteresses": ["GoLang", "Escalabilidade", "Eventos"]
+  },
+
+  {
+    "id": 58,
+    "nome": "Rafaela Souza",
+    "idade": 35,
+    "foto": "https://randomuser.me/api/portraits/women/92.jpg",
+    "cargo": "Tech Lead Frontend",
+    "resumo": "Lidera squads entregando interfaces de alta performance.",
+    "localizacao": "São Paulo/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": ["React", "Next.js", "Storybook"],
+    "softSkills": ["Liderança", "Comunicação"],
+    "experiencias": [
+      {
+        "empresa": "NextUI",
+        "cargo": "Tech Lead",
+        "inicio": "2019-01",
+        "fim": "Atual"
+      },
+      {
+        "empresa": "FrontWave",
+        "cargo": "Desenvolvedora Plena",
+        "inicio": "2016-05",
+        "fim": "2018-12"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Digital",
+        "instituicao": "USP",
+        "ano": 2015
+      }
+    ],
+    "projetos": [
+      { "titulo": "Design System Atlas", "descricao": "Usado em 12 produtos da empresa." }
+    ],
+    "certificacoes": ["React Pro"],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Avançado" }
+    ],
+    "areaInteresses": ["UI", "Performance", "Arquitetura Frontend"]
+  },
+
+  {
+    "id": 59,
+    "nome": "Hugo Fernandes",
+    "idade": 27,
+    "foto": "https://s2.glbimg.com/vfTtbJ0cBW5_XPgXE84UfAUV2Rc=/620x466/top/e.glbimg.com/og/ed/f/original/2020/03/11/jao.png",
+    "cargo": "Analista de Infraestrutura",
+    "resumo": "Mantém ambientes críticos online e estáveis.",
+    "localizacao": "Manaus/AM",
+    "area": "Infraestrutura",
+    "habilidadesTecnicas": ["Linux", "Zabbix", "Virtualização"],
+    "softSkills": ["Pensamento Rápido"],
+    "experiencias": [],
+    "formacao": [
+      {
+        "curso": "Redes",
+        "instituicao": "IFAM",
+        "ano": 2020
+      }
+    ],
+    "projetos": [],
+    "certificacoes": ["Linux Essentials"],
+    "idiomas": [],
+    "areaInteresses": ["Servidores", "Monitoramento"]
+  },
+
+  {
+    "id": 60,
+    "nome": "Caroline Becker",
+    "idade": 34,
+    "foto": "https://randomuser.me/api/portraits/women/7.jpg",
+    "cargo": "Tech Recruiter",
+    "resumo": "Conecta talentos com oportunidades no mercado de tecnologia.",
+    "localizacao": "Curitiba/PR",
+    "area": "Recursos Humanos",
+    "habilidadesTecnicas": ["People Analytics", "Entrevistas Técnicas"],
+    "softSkills": ["Comunicação", "Empatia"],
+    "experiencias": [
+      {
+        "empresa": "TalentTech",
+        "cargo": "Tech Recruiter",
+        "inicio": "2019-04",
+        "fim": "Atual"
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Psicologia",
+        "instituicao": "UTFPR",
+        "ano": 2017
+      }
+    ],
+    "projetos": [],
+    "certificacoes": [],
+    "idiomas": [
+      { "idioma": "Inglês", "nivel": "Intermediário" }
+    ],
+    "areaInteresses": ["Recrutamento", "RH Tech"]
+  }
 ]
