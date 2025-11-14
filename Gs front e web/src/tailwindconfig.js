@@ -13,7 +13,7 @@ export default {
     
   ],
   
-  darkMode: "class",
+  darkModearkMode: "class", 
   theme: {
     extend: {},
   },

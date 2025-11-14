@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+
 export default function Header({ isDarkMode, toggleDarkMode }) {
   const Sol = () => (
     <svg
@@ -19,7 +20,7 @@ export default function Header({ isDarkMode, toggleDarkMode }) {
   );
   const Lua = () => (
     <svg
-      className="w-6 h-6 text-gray-200 data-checked:dark"
+      className="w-6 h-6 text-gray-200 "
       fill="none"
       stroke="currentColor"
       viewBox="0 0 24 24"
@@ -34,7 +35,7 @@ export default function Header({ isDarkMode, toggleDarkMode }) {
     </svg>
   );
   return (
-    <header className="top-0 z-10 bg-[#032354] shadow-lg backdrop-blur-sm p-4 ">
+    <header className="top-0 z-10 bg-[#032354] dark:bg-gray-800 shadow-lg backdrop-blur-sm p-4 ">
       <div className="container mx-auto flex justify-between items-center">
         <h1 className="text-3xl font-extrabold text-indigo-600 text-indigo-400"></h1>
         <img
@@ -49,9 +50,9 @@ export default function Header({ isDarkMode, toggleDarkMode }) {
           <Link to="/Sobre" className="p-3 text-xl  font-mono text-gray text-gray-50">Sobre</Link>
         </nav>
 
-        <button
+        <button id="botaoTema"
           onClick={toggleDarkMode}
-          className="p-2 rounded-full hover:bg-gray-700  transition"
+          className="p-2 rounded-full  hover:bg-gray-700  transition"
           aria-label="Alternar Dark Mode"
         >
           {isDarkMode ? <Sol /> : <Lua />}
