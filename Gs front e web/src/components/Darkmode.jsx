@@ -19,15 +19,4 @@ export default function useDarkMode() {
   }, [isDarkMode]);
 
   return [isDarkMode, () => setIsDarkMode(prev => !prev)];
-
-   function toggleDarkMode() {
-    const htmlEl = document.documentElement;
-    if (htmlEl.classList.contains('dark')) {
-      htmlEl.classList.remove('dark');
-      localStorage.setItem('theme', 'light');
-    } else {
-      htmlEl.classList.add('dark');
-      localStorage.setItem('theme', 'dark');
-    }
-  }
 }

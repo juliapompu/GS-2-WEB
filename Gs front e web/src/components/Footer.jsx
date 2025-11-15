@@ -1,6 +1,6 @@
 export default function Footer({ }) {
   return (
-    <footer className="flex-grow top-0 z-10 bg-[#032354] shadow-lg backdrop-blur-sm p-4">
+    <footer className="flex botton-0 z-10 bg-[#032354] shadow-lg backdrop-blur-sm p-4">
       <h2 className="text-gray text-2xl font-mono font-normal text-gray-50">Humantech</h2>
       <p className="text-gray text-1xl font-mono font-bold text-gray-50">Presendao pelo seu futuro com tecnologias que priorizam as pessoas!</p>
 

@@ -1,10 +1,8 @@
-// #14243d #182c4dff
-
 const PerfilCard = ({ perfil, onClick }) => {
   return (
     <div
       onClick={() => onClick(perfil)}
-      className="bg-[#f2f2f2] dark:bg-[] dark:border-gray-900 border border-gray-200 rounded-lg shadow-xl p-6 transition duration-300 hover:shadow-2xl hover:scale-[1.02] cursor-pointer "
+      className="bg-[#f2f2f2] dark:bg-[#182c4dff] dark:border-gray-900 border border-gray-200 rounded-lg shadow-xl p-6 transition duration-300 hover:shadow-2xl hover:scale-[1.02] cursor-pointer "
      >
       <div className="flex space-x-4  ">
         <img
