@@ -4,7 +4,7 @@ const PerfilCard = ({ perfil, onClick }) => {
   return (
     <div
       onClick={() => onClick(perfil)}
-      className="bg-[#f2f2f2] dark:bg-[] dark:border-gray-900 border border-gray-200 rounded-lg shadow-xl p-6 transition duration-300 hover:shadow-2xl hover:scale-[1.02] cursor-pointer "
+      className="bg-[#f2f2f2]  border border-gray-200 rounded-lg shadow-xl p-6 transition duration-300 hover:shadow-2xl hover:scale-[1.02] cursor-pointer "
      >
       <div className="flex space-x-4  ">
         <img
@@ -13,13 +13,13 @@ const PerfilCard = ({ perfil, onClick }) => {
           className="w-20 h-20 rounded object-cover border-4 border-blue-700"
         />
         <div>
-          <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100">{perfil.nome}</h3>
-          <p className='text-xl text-gray-900 font-medium dark:text-gray-100'>{perfil.idade}</p>
-          <p className="text-normal text-blue-700 font-medium dark:text-blue-300">{perfil.cargo}</p>
+          <h3 className="text-xl font-bold text-gray-900 ">{perfil.nome}</h3>
+          <p className='text-xl text-gray-900 font-medium '>{perfil.idade}</p>
+          <p className="text-normal text-blue-700 font-medium">{perfil.cargo}</p>
         </div>
       </div>
       <div className="mt-4">
-        <p className="text-gray-900 text-md mb-3 line-clamp-2  dark:text-gray-50">{perfil.resumo}</p>
+        <p className="text-gray-900 text-md mb-3 line-clamp-2 0">{perfil.resumo}</p>
         <div className="flex flex-wrap gap-4">
           {perfil.habilidadesTecnicas.slice(0, 4).map((skill, index) => (
             <span
