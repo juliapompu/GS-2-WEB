@@ -10,21 +10,8 @@ function App() {
   const [selectedPerfil, setSelectedPerfil] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [filterArea, setFilterArea] = useState('Todos');
-  const [theme, setTheme] = useState("light");
+ 
       
-  
-  const toggleTheme = () => {
-    const newTheme = theme === 'light' ? 'dark' : 'light';
-    setTheme(newTheme);
-    document.documentElement.classList.toggle('dark', newTheme === 'dark');
-    localStorage.setItem('theme', newTheme);
-  };
-
-  useEffect(() => {
-    const storedTheme = localStorage.getItem('theme') || 'light' ;
-    setTheme(storedTheme);
-    document.documentElement.classList.toggle('dark', storedTheme === 'dakr');
-  })
 
 
   const uniqueAreas = useMemo(() => {
