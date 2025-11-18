@@ -1,9 +1,10 @@
-import { useState, useMemo, useEffect} from 'react';
+import { useState, useMemo} from 'react';
 import PerfilCard from './components/perfilcard.jsx';
 import PerfilModal from './components/perfilmodal.jsx'; 
 import perfis from './data/perfis.json';
 import "./components/Header.jsx";
 import './App.css';
+
 
 
 function App() {
@@ -40,7 +41,7 @@ function App() {
     <> 
       <main className="container bg-gray-100 dark:bg-[#14243d]  mx-auto p-4 pt-8">
         <br></br>
-        <h2 className="text-3xl font-semibold text-black-800 dark:text-gray-50  mb-6">
+        <h2 className="text-3xl font-semibold text-black-700 mb-6">
           Explore Profissionais
         </h2>
 
@@ -52,7 +53,7 @@ function App() {
             placeholder="Buscar por nome, cargo, cidade..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className="flex-grow p-3 border border-gray-400  rounded-lg bg-blue-100 text-black-800 dark:bg-gray-400/70 dark:text-white"
+            className="grow p-3 border border-gray-400  rounded-lg bg-blue-100 text-black-800 dark:bg-gray-400/70 dark:text-white"
           />
 
           {/* FILTRO POR ÁREA */}

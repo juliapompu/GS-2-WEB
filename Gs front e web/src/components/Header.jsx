@@ -1,14 +1,13 @@
+import {Link} from 'react-router-dom';
 import { Moon, Sun } from "lucide-react";
 import { useState, useEffect } from 'react';
 
+
 export default function Header({}) {
-  // Inicializa o tema a partir do localStorage ou padrão 'light'
   const [theme, setTheme] = useState(() => {
-    // Verifica se há tema salvo no localStorage
     if (typeof window !== 'undefined') {
       const storedTheme = localStorage.getItem('theme');
       if (storedTheme) {
-        // Aplica o tema imediatamente
         if (storedTheme === 'dark') {
           document.documentElement.classList.add('dark');
         } else {
@@ -23,20 +22,16 @@ export default function Header({}) {
   const toggleTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light';
     setTheme(newTheme);
-    
-    // Aplica ou remove a classe 'dark' no elemento html
     if (newTheme === 'dark') {
       document.documentElement.classList.add('dark');
     } else {
       document.documentElement.classList.remove('dark');
     }
-    
-    // Salva no localStorage
+
     localStorage.setItem('theme', newTheme);
   };
 
   useEffect(() => {
-    // Garante que o tema está aplicado ao carregar
     const storedTheme = localStorage.getItem('theme') || 'light';
     if (storedTheme === 'dark') {
       document.documentElement.classList.add('dark');
@@ -50,16 +45,22 @@ export default function Header({}) {
       <div className="container mx-auto flex justify-between items-center">
         <h1 className="text-3xl font-extrabold text-indigo-600 text-indigo-400"></h1>
         <img
-          className="w-30 h-30 mr-2"
+          className="w-45 h-30 mr-2"
           src=".\src\assets\logo-humantech.png"
           alt="Logo da empresa HumanTech"
         />
         <h1 className="text-gray text-2xl font-mono font-normal text-gray-50">HumanTech</h1>
         <p className="text-gray text-2xl font-mono font-normal text-gray-50">Tecnologia que prioriza as pessoas</p>
+        <nav>
+          <Link to="/" className='p-3 text-xl  font-mono text-gray text-gray-50'>Home</Link>
+          <Link to="/Sobre" className='p-3 text-xl  font-mono text-gray text-gray-50'>Sobre</Link>
+          <Link to="/Contatos" className='p-3 text-xl  font-mono text-gray text-gray-50'>Contatos</Link>
+          <Link to="/Relatos" className='p-3 text-xl  font-mono text-gray text-gray-50'>Relatos</Link>
 
+        </nav>
         <button onClick={toggleTheme}
         className="rounded-full p-2 shadow-md shadow-indigo-400 text-gray-50 
-        hover:text-indigo-400 transition-all ease-in-out cursor-pointer">{theme === 'dark' ? <Moon/> : <Sun/>}
+        hover:text-indigo-400 transition-all ease-in-out cursor-pointer">{theme === 'light' ? <Moon/> : <Sun/>}
         </button>
       </div>
     </header>
