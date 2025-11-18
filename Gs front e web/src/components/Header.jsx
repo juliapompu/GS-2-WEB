@@ -1,6 +1,7 @@
 import {Link} from 'react-router-dom';
 import { Moon, Sun, Menu, X } from "lucide-react";
 import { useState, useEffect } from 'react';
+import logo from "../assets/Logo-HumanTech.png";
 
 
 export default function Header({}) {
@@ -54,7 +55,7 @@ export default function Header({}) {
           <div className="flex items-center gap-4">
             <img
               className="w-32 h-20 md:w-40 md:h-24 object-contain"
-              src=".\src\assets\logo-humantech.png"
+              src={logo}
               alt="Logo da empresa HumanTech"
             />
             <div className="flex flex-col">
