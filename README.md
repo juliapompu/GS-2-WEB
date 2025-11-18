@@ -10,7 +10,7 @@ A tecnologia tem avançado muito ultimamente e com essa evolução o mercado fic
 ---
 
 ## Vercel
-https://gs-2-web-3kb1-63u15amkr-julia-pompeus-projects.vercel.app
+https://gs-2-web-3kb1.vercel.app/
 
 ## 🛠️ Funcionalidades
 - ✅ Página inicial com perfis de pessoas que se cadastraram no sistema,
