@@ -6,7 +6,6 @@ import "./components/Header.jsx";
 import './App.css';
 
 
-
 function App() {
   const [selectedPerfil, setSelectedPerfil] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
@@ -41,7 +40,7 @@ function App() {
     <> 
       <main className="container bg-gray-100 dark:bg-[#14243d]  mx-auto p-4 pt-8">
         <br></br>
-        <h2 className="text-3xl font-semibold text-black-700 mb-6">
+        <h2 className="text-3xl font-semibold text-gray-900 dark:text-gray-50 mb-6">
           Explore Profissionais
         </h2>
 
@@ -53,7 +52,7 @@ function App() {
             placeholder="Buscar por nome, cargo, cidade..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className="grow p-3 border border-gray-400  rounded-lg bg-blue-100 text-black-800 dark:bg-gray-400/70 dark:text-white"
+            className="grow p-3 border border-gray-400  rounded-lg bg-blue-100 text-gray-900 dark:bg-gray-400/70 dark:text-white"
           />
 
           {/* FILTRO POR ÁREA */}
@@ -75,7 +74,7 @@ function App() {
               <PerfilCard key={perfil.id} perfil={perfil} onClick={setSelectedPerfil}/>
             ))
           ) : (
-            <p className="col-span-full text-center text-xl text-black-100 dark:text-gray-50 ">
+            <p className="col-span-full text-center text-xl text-gray-900 dark:text-gray-50 ">
               Nenhum profissional encontrado.
             </p>
           )}
