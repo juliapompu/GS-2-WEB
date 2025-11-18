@@ -81,7 +81,7 @@ export default function Header({}) {
           <div className="flex items-center gap-2">
             <img
               className="w-24 h-16 object-contain"
-              src=".\src\assets\logo-humantech.png"
+              src={logo}
               alt="Logo da empresa HumanTech"
             />
             <h1 className="text-lg font-mono font-normal text-gray-50">HumanTech</h1>
