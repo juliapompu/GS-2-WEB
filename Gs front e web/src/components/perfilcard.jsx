@@ -4,7 +4,7 @@ const PerfilCard = ({ perfil, onClick }) => {
   return (
     <div
       onClick={() => onClick(perfil)}
-      className="bg-[#f2f2f2]  border border-gray-200 rounded-lg shadow-xl p-6 transition duration-300 hover:shadow-2xl hover:scale-[1.02] cursor-pointer grid grif-cols-2
+      className="bg-[#f2f2f2]  border border-gray-200 rounded-lg p-6 transition duration-300  grid grif-cols-2
       dark:bg-[#0a182e]/80 dark:border-gray-800"
      >
       <div className="flex space-x-4  ">
